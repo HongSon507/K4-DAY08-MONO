@@ -1,13 +1,13 @@
 ---
-doc_id: nghi-dinh-84-2020-nd-cp
+doc_id: "nghi-dinh-84-2020-nd-cp"
 title: "Nghị định 84/2020/NĐ-CP — Chương IV: Học bổng khuyến khích học tập"
 source_url: "https://hvnh.edu.vn/medias/qlnh/vi/10.2021/system/archivedate/bb5ff579_Ngh%E1%BB%8B%20%C4%91%E1%BB%8Bnh%2084-%20HBKKHT%20m%E1%BB%9Bi%20n%C4%83m%202021.pdf"
-retrieved_at: 2026-09-20
-document_version: 84/2020/NĐ-CP
-audience: all
-institution: chinh-phu
-category: van-ban-phap-quy
-language: vi
+retrieved_at: "2026-09-20"
+document_version: "84/2020/NĐ-CP"
+audience: "all"
+institution: "chinh-phu"
+category: "van-ban-phap-quy"
+language: "vi"
 ---
 
 # Nghị định 84/2020/NĐ-CP — Chương IV: Học bổng khuyến khích học tập

@@ -1,13 +1,13 @@
 ---
-doc_id: uet-merit-scholarship-2025-2026
-title: Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026 cho sinh viên - Trường Đại học Công Nghệ - Đại học Quốc Gia Hà Nội
+doc_id: "uet-merit-scholarship-2025-2026"
+title: "Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026 cho sinh viên - Trường Đại học Công Nghệ - Đại học Quốc Gia Hà Nội"
 source_url: "https://uet.edu.vn/cap-hoc-bong-khuyen-khich-hoc-tap-trong-hoc-ky-i-nam-hoc-2025-2026-cho-sinh-vien/"
-retrieved_at: "2026-09-20T15:07:18"
-audience: student
-institution: uet
-department: student-affairs
-category: merit-scholarship
-language: vi
+retrieved_at: "2026-09-20T16:09:48+07:00"
+audience: "student"
+institution: "uet"
+department: "student-affairs"
+category: "merit-scholarship"
+language: "vi"
 ---
 
 # Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026 cho sinh viên - Trường Đại học Công Nghệ - Đại học Quốc Gia Hà Nội
@@ -25,101 +25,17 @@ _Theo đề nghị của Trưởng phòng Công tác Sinh viên._
 1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).
 2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).
 3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.
-**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  
-| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  
-| --- | --- |  
-| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |  
-| Chuẩn, khóa QH-2021  | 2.050.000đ  | 1.950.000đ  | 1.850.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNNN)  | 2.200.000đ  | 2.100.000đ  | 2.000.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNKTXD, ngành CNHKVT)  | 2.700.000đ  | 2.600.000đ  | 2.500.000đ  |  
-| Chuẩn, khóa QH-2022 (các ngành còn lại)  | 3.200.000đ  | 3.100.000đ  | 3.000.000đ  |  
-| Chuẩn, khóa QH-2023, 2024, 2025  | 3.600.000đ  | 3.500.000đ  | 3.400.000đ  |  
-| CLC CNTT, khóa QH-2022  | 4.100.000đ  | 4.000.000đ  | 3.900.000đ  |  
-| CLC theo TT23 từ QH-2021 đến QH-2022  | 3.700.000đ  | 3.600.000đ  | 3.500.000đ  |  
-| ĐMKTKT, khóa QH-2023, 2024, 2025  | 4.200.000đ  | 4.100.000đ  | 4.000.000đ  |  
+**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:
+| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |
+| --- | --- |
+| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |
+| Chuẩn, khóa QH-2021  | 2.050.000đ  | 1.950.000đ  | 1.850.000đ  |
+| Chuẩn, khóa QH-2022 (ngành CNNN)  | 2.200.000đ  | 2.100.000đ  | 2.000.000đ  |
+| Chuẩn, khóa QH-2022 (ngành CNKTXD, ngành CNHKVT)  | 2.700.000đ  | 2.600.000đ  | 2.500.000đ  |
+| Chuẩn, khóa QH-2022 (các ngành còn lại)  | 3.200.000đ  | 3.100.000đ  | 3.000.000đ  |
+| Chuẩn, khóa QH-2023, 2024, 2025  | 3.600.000đ  | 3.500.000đ  | 3.400.000đ  |
+| CLC CNTT, khóa QH-2022  | 4.100.000đ  | 4.000.000đ  | 3.900.000đ  |
+| CLC theo TT23 từ QH-2021 đến QH-2022  | 3.700.000đ  | 3.600.000đ  | 3.500.000đ  |
+| ĐMKTKT, khóa QH-2023, 2024, 2025  | 4.200.000đ  | 4.100.000đ  | 4.000.000đ  |
 **Điều 3.** Các Trưởng phòng Hành chính Quản trị và Tổ chức Cán bộ, Công tác Sinh viên, Kế hoạch Tài chính, Lãnh đạo các Khoa/Viện, các sinh viên có tên ở Điều 1 chịu trách nhiệm thi hành Quyết định này.
 Phòng CTSV sẽ làm các thủ tục thanh toán, tiền học bổng sẽ được chuyển vào tài khoản BIDV của sinh viên (do Trường ĐHCN cấp). Đề nghị các sinh viên có tên trong các danh sách nói trên kiểm tra tài khoản ngân hàng, nếu bị khóa/bị lỗi thì sinh viên liên hệ với Ngân hàng BIDV, chi nhánh Cầu Giấy (106 Hoàng Quốc Việt) để khôi phục tài khoản.
-#####  [Kết quả xét bổ nhiệm chức danh giáo sư, phó giáo sư năm 2025](https://uet.edu.vn/ket-qua-xet-bo-nhiem-chuc-danh-giao-su-pho-giao-su-nam-2025/)
-04/12/2025 
-[Bài tiếp theo](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)
-#####  [Chương trình học bổng theo diện hiệp định giữa Việt Nam và Trung Quốc năm 2026](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)
-05/12/2025 
-### Bài viết liên quan
-##### [Điều chỉnh đối tượng xét học bổng Data Nest năm học 2026-2027](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)
-14/09/2026 
-##### [Học bổng EVN, năm học 2025-2026](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)
-14/09/2026 
-##### [Chương trình Học bổng Tài năng Pegatron 2027](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)
-14/09/2026 
-_Căn cứ Quyết định số 3568/QĐ-ĐHQGHN ngày 08 tháng 10 năm 2014 của Giám đốc Đại học Quốc gia Hà Nội ban hành Quy định về Tổ chức và Hoạt động của các đơn vị thành viên và đơn vị trực thuộc ĐHQGHN;_
-_Căn cứ Nghị quyết số 985/NQ-HĐT ngày 08 tháng 11 năm 2022 của Hội đồng trường Trường Đại học Công nghệ, về việc ban hành Quy chế tạm thời về tổ chức và hoạt động của Trường Đại học Công nghệ;_
-_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_
-_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_
-_Căn cứ Kết quả họp Hội đồng Thi đua Khen thưởng và Kỷ luật sinh viên Trường Đại học Công nghệ họp ngày 14 tháng 11 năm 2025 (base);_
-_Căn cứ Tờ trình ngày 26 tháng 11 năm 2025 của phòng Công tác sinh viên, phòng Kế hoạch tài chính, về phương án cấp học bổng khuyến khích học tập cho sinh viên trong học kì I năm học 2025-2026;_
-_Theo đề nghị của Trưởng phòng Công tác Sinh viên._
-**HIỆU TRƯỞNG**
-**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**
-**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:
-1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).
-2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).
-3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.
-**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  
-| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  
-| --- | --- |  
-| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |  
-| Chuẩn, khóa QH-2021  | 2.050.000đ  | 1.950.000đ  | 1.850.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNNN)  | 2.200.000đ  | 2.100.000đ  | 2.000.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNKTXD, ngành CNHKVT)  | 2.700.000đ  | 2.600.000đ  | 2.500.000đ  |  
-| Chuẩn, khóa QH-2022 (các ngành còn lại)  | 3.200.000đ  | 3.100.000đ  | 3.000.000đ  |  
-| Chuẩn, khóa QH-2023, 2024, 2025  | 3.600.000đ  | 3.500.000đ  | 3.400.000đ  |  
-| CLC CNTT, khóa QH-2022  | 4.100.000đ  | 4.000.000đ  | 3.900.000đ  |  
-| CLC theo TT23 từ QH-2021 đến QH-2022  | 3.700.000đ  | 3.600.000đ  | 3.500.000đ  |  
-| ĐMKTKT, khóa QH-2023, 2024, 2025  | 4.200.000đ  | 4.100.000đ  | 4.000.000đ  |  
-**Điều 3.** Các Trưởng phòng Hành chính Quản trị và Tổ chức Cán bộ, Công tác Sinh viên, Kế hoạch Tài chính, Lãnh đạo các Khoa/Viện, các sinh viên có tên ở Điều 1 chịu trách nhiệm thi hành Quyết định này.
-Phòng CTSV sẽ làm các thủ tục thanh toán, tiền học bổng sẽ được chuyển vào tài khoản BIDV của sinh viên (do Trường ĐHCN cấp). Đề nghị các sinh viên có tên trong các danh sách nói trên kiểm tra tài khoản ngân hàng, nếu bị khóa/bị lỗi thì sinh viên liên hệ với Ngân hàng BIDV, chi nhánh Cầu Giấy (106 Hoàng Quốc Việt) để khôi phục tài khoản.
-#####  [Kết quả xét bổ nhiệm chức danh giáo sư, phó giáo sư năm 2025](https://uet.edu.vn/ket-qua-xet-bo-nhiem-chuc-danh-giao-su-pho-giao-su-nam-2025/)
-04/12/2025 
-[Bài tiếp theo](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)
-#####  [Chương trình học bổng theo diện hiệp định giữa Việt Nam và Trung Quốc năm 2026](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)
-05/12/2025 
-### Bài viết liên quan
-##### [Điều chỉnh đối tượng xét học bổng Data Nest năm học 2026-2027](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)
-14/09/2026 
-##### [Học bổng EVN, năm học 2025-2026](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)
-14/09/2026 
-##### [Chương trình Học bổng Tài năng Pegatron 2027](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)
-14/09/2026 
-_Căn cứ Quyết định số 3568/QĐ-ĐHQGHN ngày 08 tháng 10 năm 2014 của Giám đốc Đại học Quốc gia Hà Nội ban hành Quy định về Tổ chức và Hoạt động của các đơn vị thành viên và đơn vị trực thuộc ĐHQGHN;_
-_Căn cứ Nghị quyết số 985/NQ-HĐT ngày 08 tháng 11 năm 2022 của Hội đồng trường Trường Đại học Công nghệ, về việc ban hành Quy chế tạm thời về tổ chức và hoạt động của Trường Đại học Công nghệ;_
-_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_
-_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_
-_Căn cứ Kết quả họp Hội đồng Thi đua Khen thưởng và Kỷ luật sinh viên Trường Đại học Công nghệ họp ngày 14 tháng 11 năm 2025 (base);_
-_Căn cứ Tờ trình ngày 26 tháng 11 năm 2025 của phòng Công tác sinh viên, phòng Kế hoạch tài chính, về phương án cấp học bổng khuyến khích học tập cho sinh viên trong học kì I năm học 2025-2026;_
-_Theo đề nghị của Trưởng phòng Công tác Sinh viên._
-**HIỆU TRƯỞNG**
-**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**
-**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:
-1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).
-2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).
-3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.
-**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  
-| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  
-| --- | --- |  
-| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |  
-| Chuẩn, khóa QH-2021  | 2.050.000đ  | 1.950.000đ  | 1.850.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNNN)  | 2.200.000đ  | 2.100.000đ  | 2.000.000đ  |  
-| Chuẩn, khóa QH-2022 (ngành CNKTXD, ngành CNHKVT)  | 2.700.000đ  | 2.600.000đ  | 2.500.000đ  |  
-| Chuẩn, khóa QH-2022 (các ngành còn lại)  | 3.200.000đ  | 3.100.000đ  | 3.000.000đ  |  
-| Chuẩn, khóa QH-2023, 2024, 2025  | 3.600.000đ  | 3.500.000đ  | 3.400.000đ  |  
-| CLC CNTT, khóa QH-2022  | 4.100.000đ  | 4.000.000đ  | 3.900.000đ  |  
-| CLC theo TT23 từ QH-2021 đến QH-2022  | 3.700.000đ  | 3.600.000đ  | 3.500.000đ  |  
-| ĐMKTKT, khóa QH-2023, 2024, 2025  | 4.200.000đ  | 4.100.000đ  | 4.000.000đ  |  
-**Điều 3.** Các Trưởng phòng Hành chính Quản trị và Tổ chức Cán bộ, Công tác Sinh viên, Kế hoạch Tài chính, Lãnh đạo các Khoa/Viện, các sinh viên có tên ở Điều 1 chịu trách nhiệm thi hành Quyết định này.
-Phòng CTSV sẽ làm các thủ tục thanh toán, tiền học bổng sẽ được chuyển vào tài khoản BIDV của sinh viên (do Trường ĐHCN cấp). Đề nghị các sinh viên có tên trong các danh sách nói trên kiểm tra tài khoản ngân hàng, nếu bị khóa/bị lỗi thì sinh viên liên hệ với Ngân hàng BIDV, chi nhánh Cầu Giấy (106 Hoàng Quốc Việt) để khôi phục tài khoản.
-Ngày 26/8/2026, Trường ĐHCN đã triển khai học bổng Data Nest, nội dung như ở đường link sau: https://uet.vnu.edu.vn/hoc-bong-data-nest-nam-hoc-2026-2027/ Theo đề nghị của Trường ĐHCN, Công ty cổ phần công nghệ Data Nest đã điều chỉnh đối tượng như sau: … 
-[ Xem thêm ](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)
-Ngày 10/9/2026, Trường Đại học Công nghệ nhận được công văn của Đại học Quốc gia Hà Nội, thông báo về chương trình học bổng của Tập đoàn Điện lực Việt Nam (gọi tắt là học bổng EVN) năm học … 
-[ Xem thêm ](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)
-Căn cứ Công văn số PVN-26830 ngày 25 tháng 8 năm 2026 của Công ty TNHH Pegatron Việt Nam về việc tuyển chọn Chương trình “Học bổng Tài năng Pegatron 2027”, Đại học Quốc gia Hà Nội (ĐHQGHN) đã có công … 
-[ Xem thêm ](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)

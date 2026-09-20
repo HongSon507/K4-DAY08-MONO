@@ -42,7 +42,9 @@ def _frontmatter(values: dict) -> str:
     for key in FRONTMATTER_FIELDS:
         value = str(values.get(key, "") or "").strip()
         if value:
-            lines.append(f'{key}: "{value}"' if ":" in value else f"{key}: {value}")
+            # Chuỗi JSON cũng là scalar hợp lệ của YAML; quote tất cả giúp
+            # giữ nguyên dấu hai chấm, dấu #, ngoặc kép và Unicode.
+            lines.append(f"{key}: {json.dumps(value, ensure_ascii=False)}")
     lines.append("---")
     return "\n".join(lines)
 

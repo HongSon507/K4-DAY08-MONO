@@ -6,6 +6,9 @@ liệu và tên riêng. Output phải theo SearchResult và sort score giảm d�
 """
 
 import re
+import unicodedata
+
+from .contracts import validate_search_results
 
 
 CORPUS: list[dict] = []
@@ -13,7 +16,7 @@ CORPUS: list[dict] = []
 # Giữ chữ cái (kể cả chữ có dấu), chữ số và dấu chấm trong số như 2.050.000.
 _TOKEN_RE = re.compile(r"[0-9]+(?:[.,][0-9]+)*|\w+", re.UNICODE)
 
-_CACHE: dict = {"corpus_id": None, "bm25": None}
+_CACHE: dict = {"corpus_signature": None, "bm25": None}
 
 
 def tokenize(text: str) -> list[str]:
@@ -23,7 +26,22 @@ def tokenize(text: str) -> list[str]:
     vụn các mức tiền như "2.050.000đ", làm BM25 trượt đúng những truy vấn
     hỏi con số mà BM25 lẽ ra mạnh nhất.
     """
-    return _TOKEN_RE.findall(text.lower())
+    folded = unicodedata.normalize("NFD", text.casefold().replace("đ", "d"))
+    folded = "".join(char for char in folded if unicodedata.category(char) != "Mn")
+    return _TOKEN_RE.findall(folded)
+
+
+def _lexical_text(item: dict) -> str:
+    """Ghép body với ID/title/source để BM25 tìm được tên riêng."""
+    metadata = item.get("metadata") or {}
+    return "\n".join(
+        (
+            str(item.get("id", "")),
+            str(metadata.get("source", "")),
+            str(metadata.get("title", "")),
+            str(item.get("content", "")),
+        )
+    )
 
 
 def load_corpus() -> list[dict]:
@@ -48,13 +66,22 @@ def build_bm25_index(corpus: list[dict]):
     if not corpus:
         return None
 
-    return BM25Okapi([tokenize(item["content"]) for item in corpus])
+    # epsilon=0: term xuất hiện trong hơn nửa corpus không bị IDF âm.
+    # Điều này quan trọng với title lặp trên nhiều chunk của cùng document.
+    return BM25Okapi(
+        [tokenize(_lexical_text(item)) for item in corpus],
+        epsilon=0.0,
+    )
 
 
 def _get_index(corpus: list[dict]):
-    """Cache BM25 index theo danh tính corpus để không dựng lại mỗi query."""
-    if _CACHE["corpus_id"] != id(corpus) or _CACHE["bm25"] is None:
-        _CACHE["corpus_id"] = id(corpus)
+    """Cache index theo nội dung corpus, kể cả khi list bị mutate in-place."""
+    signature = tuple(
+        (item.get("id", ""), _lexical_text(item))
+        for item in corpus
+    )
+    if _CACHE["corpus_signature"] != signature or _CACHE["bm25"] is None:
+        _CACHE["corpus_signature"] = signature
         _CACHE["bm25"] = build_bm25_index(corpus)
     return _CACHE["bm25"]
 
@@ -62,7 +89,7 @@ def _get_index(corpus: list[dict]):
 def lexical_search(query: str, top_k: int = 10) -> list[dict]:
     """Trả về BM25 SearchResult theo score giảm dần."""
     corpus = CORPUS or load_corpus()
-    if not corpus or not query.strip():
+    if not corpus or not query.strip() or top_k <= 0:
         return []
 
     bm25 = _get_index(corpus)
@@ -77,7 +104,7 @@ def lexical_search(query: str, top_k: int = 10) -> list[dict]:
     # loại sạch cả kết quả đúng. Dùng thêm số token trùng làm tín hiệu phụ
     # để vẫn giữ được document thực sự khớp.
     wanted = set(query_tokens)
-    overlaps = [len(wanted & set(tokenize(item["content"]))) for item in corpus]
+    overlaps = [len(wanted & set(tokenize(_lexical_text(item)))) for item in corpus]
 
     order = sorted(
         range(len(scores)),
@@ -100,6 +127,7 @@ def lexical_search(query: str, top_k: int = 10) -> list[dict]:
             }
         )
 
+    validate_search_results(results, top_k=top_k, expected_method="bm25")
     return results
 
 

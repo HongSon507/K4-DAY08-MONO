@@ -1,23 +1,22 @@
 ---
-doc_id: undergraduate-scholarships
-title: Scholarships - Admission
+doc_id: "undergraduate-scholarships"
+title: "Scholarships - Admission"
 source_url: "https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/undergraduate-programs/scholarships/"
-retrieved_at: "2026-09-20T15:06:53"
-audience: student
-institution: vinuni
-department: admissions
-category: merit-scholarship
-language: vi
+retrieved_at: "2026-09-20T16:09:35+07:00"
+audience: "student"
+institution: "vinuni"
+department: "admissions"
+category: "merit-scholarship"
+language: "vi"
 ---
 
 # Scholarships - Admission
 
 #  Scholarships
-Scholarships 
+Scholarships
   * [Prospective Undergraduate](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/undergraduate-programs/scholarships/)
   * [Prospective Postgraduate](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/prospective-postgraduate/)
     * [Scholarships](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/prospective-postgraduate/scholarships/)
-
 
 ## Prospective Undergraduates
 _To further support the mission of nurturing talent, Vingroup, the Founder of VinUniversity, has reaffirmed its unwavering commitment to sustaining the University’s Scholarship Fund for future generations of VinUniversity students._
@@ -30,7 +29,6 @@ Awarded to applicants with outstanding academic performance and strong personal 
   3. **Dean’s Distinction Scholarship** : Covers 80% or 90% of tuition.
   4. **Discipline’s Honor Scholarship** : Covers 50%, 60%, or 70% of tuition.
 
-
 (*) _Merit-Based Scholarships already include the 35% tuition subsidy._
 ### **Special Encouragement Scholarships (*Stackable)**
   1. **Special Academic Scholarship:** Offers a 5% tuition waiver for selected academic disciplines, as designated for each academic year.
@@ -38,12 +36,10 @@ Awarded to applicants with outstanding academic performance and strong personal 
   3. **Vinschool-VinUni Scholarship:** Covers a 5% tuition waiver for Vinschool graduates who are admitted to VinUniversity.
   4. **Vingroup Family Scholarship:** Available for children of Vingroup employees and executives, as part of the Group’s commitment to fostering talent within its community.
 
-
 ### **Special Sponsor Scholarships from Private Fund**
 This program is designed for outstanding applicants who have earned a **Merit-based Scholarship of 80% or higher** but face financial barriers in pursuing their dream of studying at VinUniversity. These scholarships (an additional 10% tuition support) are generously supported by dedicated donors and awarded based on the specific criteria of each fund.
-  1. **Dean Choi Grant by Soosan (10% of tuition fee):** Sponsored by Soosan Group and is awarded to outstanding students from the College of Business & Management (CBM) and the College of Engineering and Computer Science (CECS). Recipients are selected based on the criteria set by the sponsor. Learn how the **Dean Choi Grant by Soosan** is helping students achieve their dreams 
+  1. **Dean Choi Grant by Soosan (10% of tuition fee):** Sponsored by Soosan Group and is awarded to outstanding students from the College of Business & Management (CBM) and the College of Engineering and Computer Science (CECS). Recipients are selected based on the criteria set by the sponsor. Learn how the **Dean Choi Grant by Soosan** is helping students achieve their dreams
   2. **Future Leader Grant:** For those outstanding students who are offered 80 – 90% scholarship but the remaining 10% – 20% of tuition remains an obstacle, this grant removes this last barrier, opening the door for deserving young people to study at VinUniversity. To learn more about this grant, please visit [**[HERE]**.](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/current-students/)
-
 
 **Important Note:**
   * Applicants who meet the admission criteria but face financial difficulties, in addition to receiving the above scholarships, may apply for Financial Aid. Financial support can cover up to 100% of tuition fees.

@@ -16,6 +16,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from .contracts import validate_document
+
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -30,8 +32,8 @@ CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 CHUNKING_METHOD = "recursive"
 
-EMBEDDING_MODEL = "BAAI/bge-m3"
-EMBEDDING_DIM = 1024
+EMBEDDING_MODEL = "local-tfidf-svd-128"
+EMBEDDING_DIM = 128
 
 COLLECTION_NAME = "rag_documents"
 
@@ -41,7 +43,7 @@ _MODEL = None
 
 
 def _provider() -> str:
-    return os.getenv("EMBEDDING_PROVIDER", "sentence_transformers").strip().lower()
+    return os.getenv("EMBEDDING_PROVIDER", "local_tfidf").strip().lower()
 
 
 def _model_name() -> str:
@@ -61,6 +63,66 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
 
     provider = _provider()
     model_name = _model_name()
+
+    if provider == "local_tfidf":
+        from sklearn.decomposition import TruncatedSVD
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.pipeline import FeatureUnion
+        from sklearn.preprocessing import normalize
+
+        if _MODEL is None:
+            # Fit trên corpus chuẩn, không fit trên `texts`: Task 4 và Task 5
+            # có thể chạy ở hai process khác nhau nhưng vẫn tạo đúng
+            # cùng vocabulary/SVD nhờ corpus và random_state cố định.
+            training_texts = [
+                chunk["content"]
+                for chunk in chunk_documents(load_documents())
+            ]
+            if len(training_texts) < 2:
+                raise ValueError("Cần ít nhất hai chunks để fit local embedding")
+
+            features = FeatureUnion(
+                (
+                    (
+                        "word",
+                        TfidfVectorizer(
+                            ngram_range=(1, 2),
+                            min_df=1,
+                            max_features=20_000,
+                            strip_accents="unicode",
+                            sublinear_tf=True,
+                        ),
+                    ),
+                    (
+                        "char",
+                        TfidfVectorizer(
+                            analyzer="char_wb",
+                            ngram_range=(3, 5),
+                            min_df=2,
+                            max_features=20_000,
+                            strip_accents="unicode",
+                            sublinear_tf=True,
+                        ),
+                    ),
+                )
+            )
+            training_matrix = features.fit_transform(training_texts)
+            dimensions = min(
+                EMBEDDING_DIM,
+                training_matrix.shape[0] - 1,
+                training_matrix.shape[1] - 1,
+            )
+            if dimensions < 1:
+                raise ValueError("Corpus không đủ feature để fit local embedding")
+
+            reducer = TruncatedSVD(n_components=dimensions, random_state=42)
+            reducer.fit(training_matrix)
+            _MODEL = (features, reducer)
+
+        features, reducer = _MODEL
+        vectors = reducer.transform(features.transform(texts))
+        vectors = normalize(vectors, norm="l2")
+        return vectors.tolist()
 
     if provider == "sentence_transformers":
         from sentence_transformers import SentenceTransformer
@@ -121,12 +183,12 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
     if len(parts) < 3:
         return {}, text
 
-    try:
-        import yaml
+    import yaml
 
+    try:
         meta = yaml.safe_load(parts[1]) or {}
-    except Exception:
-        meta = {}
+    except yaml.YAMLError as error:
+        raise ValueError(f"Frontmatter YAML không hợp lệ: {error}") from error
 
     if not isinstance(meta, dict):
         meta = {}
@@ -146,18 +208,18 @@ def load_documents() -> list[dict]:
         doc_type = "legal" if "legal" in path.parts else "news"
         url = str(meta.get("source_url", "") or "").strip() or None
 
-        documents.append(
-            {
-                "id": path.relative_to(STANDARDIZED_DIR).as_posix(),
-                "content": body,
-                "metadata": {
-                    "source": path.name,
-                    "title": str(meta.get("title", "") or path.stem).strip(),
-                    "doc_type": doc_type,
-                    "url": url,
-                },
-            }
-        )
+        document = {
+            "id": path.relative_to(STANDARDIZED_DIR).as_posix(),
+            "content": body,
+            "metadata": {
+                "source": path.name,
+                "title": str(meta.get("title", "") or path.stem).strip(),
+                "doc_type": doc_type,
+                "url": url,
+            },
+        }
+        validate_document(document)
+        documents.append(document)
 
     return documents
 
@@ -174,18 +236,19 @@ def chunk_documents(documents: list[dict]) -> list[dict]:
 
     chunks: list[dict] = []
     for document in documents:
+        validate_document(document)
         index = 0
         for text in splitter.split_text(document["content"]):
             text = text.strip()
             if not text:
                 continue
-            chunks.append(
-                {
-                    "id": f"{document['id']}::chunk-{index}",
-                    "content": text,
-                    "metadata": {**document["metadata"], "chunk_index": index},
-                }
-            )
+            chunk = {
+                "id": f"{document['id']}::chunk-{index}",
+                "content": text,
+                "metadata": {**document["metadata"], "chunk_index": index},
+            }
+            validate_document(chunk, require_chunk=True)
+            chunks.append(chunk)
             index += 1
 
     return chunks
@@ -193,7 +256,19 @@ def chunk_documents(documents: list[dict]) -> list[dict]:
 
 def embed_chunks(chunks: list[dict]) -> list[dict]:
     """Thêm embedding vào từng chunk."""
+    for chunk in chunks:
+        validate_document(chunk, require_chunk=True)
+
     vectors = embed_texts([chunk["content"] for chunk in chunks])
+    if len(vectors) != len(chunks):
+        raise ValueError(
+            f"Embedding provider trả {len(vectors)} vector cho {len(chunks)} chunks"
+        )
+
+    dimensions = {len(vector) for vector in vectors}
+    if vectors and (0 in dimensions or len(dimensions) != 1):
+        raise ValueError(f"Embedding dimension không hợp lệ: {sorted(dimensions)}")
+
     for chunk, vector in zip(chunks, vectors):
         chunk["embedding"] = vector
     return chunks
@@ -213,10 +288,18 @@ def _chroma_metadata(metadata: dict) -> dict:
 
 
 def index_to_vectorstore(chunks: list[dict]) -> None:
-    """Upsert chunks vào ChromaDB."""
+    """Upsert chunks và xóa ID cũ không còn thuộc corpus."""
     if not chunks:
         print("Không có chunk nào để index")
         return
+
+    ids = [chunk["id"] for chunk in chunks]
+    if len(ids) != len(set(ids)):
+        raise ValueError("Chunk IDs phải duy nhất trước khi index")
+    for chunk in chunks:
+        validate_document(chunk, require_chunk=True)
+        if not isinstance(chunk.get("embedding"), list) or not chunk["embedding"]:
+            raise ValueError(f"Chunk chưa có embedding: {chunk['id']}")
 
     collection = get_collection()
     for start in range(0, len(chunks), 100):
@@ -227,6 +310,14 @@ def index_to_vectorstore(chunks: list[dict]) -> None:
             embeddings=[chunk["embedding"] for chunk in batch],
             metadatas=[_chroma_metadata(chunk["metadata"]) for chunk in batch],
         )
+
+    # Upsert ngăn nhân bản khi ID không đổi. Bước prune này còn
+    # loại chunk mồ côi khi tài liệu bị xóa hoặc ngắn đi sau lần index trước.
+    existing_ids = set(collection.get(include=[]).get("ids") or [])
+    stale_ids = sorted(existing_ids - set(ids))
+    if stale_ids:
+        collection.delete(ids=stale_ids)
+        print(f"Pruned {len(stale_ids)} stale chunks")
 
 
 def run_pipeline() -> None:

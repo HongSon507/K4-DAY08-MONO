@@ -66,7 +66,7 @@ SOURCES: list[dict] = [
             "Quy%20%C4%91%E1%BB%8Bnh%20V%E1%BB%81%20h%E1%BB%8Dc%20b%E1%BB%95ng%20khuy%E1%BA%BFn%20"
             "kh%C3%ADch%20h%E1%BB%8Dc%20t%E1%BA%ADp%20cho%20sinh%20vi%C3%AAn.pdf"
         ),
-        "document_version": "not-stated",
+        "document_version": "46/QĐ-ĐHL (2019-01-09)",
         "audience": "student",
         "institution": "hcmulaw",
         "category": "merit-scholarship",
@@ -100,15 +100,23 @@ def download_documents() -> None:
 
     setup_directory()
     rows: list[dict] = []
+    downloads: list[tuple[Path, bytes]] = []
+    failures: list[str] = []
+
+    session = requests.Session()
+    session.headers.update(
+        {"User-Agent": "K4-L3A-RAG-Pipeline/1.0 (educational corpus collector)"}
+    )
 
     for source in SOURCES:
         target = DATA_DIR / source["file_name"]
         try:
-            response = requests.get(source["source_url"], timeout=TIMEOUT)
+            response = session.get(source["source_url"], timeout=TIMEOUT)
             response.raise_for_status()
             content = response.content
         except Exception as error:
             print(f"Failed: {source['file_name']} — {error}")
+            failures.append(source["file_name"])
             continue
 
         if not content.startswith(b"%PDF") or len(content) < MIN_BYTES:
@@ -116,9 +124,10 @@ def download_documents() -> None:
                 f"Failed: {source['file_name']} — không phải PDF hợp lệ "
                 f"({len(content)} bytes)"
             )
+            failures.append(source["file_name"])
             continue
 
-        target.write_bytes(content)
+        downloads.append((target, content))
         rows.append(
             {
                 **{key: source.get(key, "") for key in CSV_FIELDS},
@@ -127,14 +136,28 @@ def download_documents() -> None:
                 "license_or_permission": "public-source",
             }
         )
+        print(f"Validated: {target.name} ({len(content)} bytes)")
+
+    if failures:
+        raise RuntimeError(
+            "Không cập nhật corpus vì tải thất bại: " + ", ".join(failures)
+        )
+
+    # Chỉ thay corpus sau khi toàn bộ nguồn đã tải và validate thành công,
+    # tránh trạng thái nửa cũ nửa mới khi mạng lỗi giữa chừng.
+    for target, content in downloads:
+        temp = target.with_suffix(f"{target.suffix}.tmp")
+        temp.write_bytes(content)
+        temp.replace(target)
         print(f"Saved: {target.name} ({len(content)} bytes)")
 
-    if rows:
-        with SOURCES_CSV.open("w", encoding="utf-8", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
-            writer.writeheader()
-            writer.writerows(rows)
-        print(f"Provenance: {SOURCES_CSV.name} ({len(rows)} dòng)")
+    csv_temp = SOURCES_CSV.with_suffix(".csv.tmp")
+    with csv_temp.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=CSV_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    csv_temp.replace(SOURCES_CSV)
+    print(f"Provenance: {SOURCES_CSV.name} ({len(rows)} dòng)")
 
     print(f"\n{len(rows)}/{len(SOURCES)} tài liệu đã tải")
 

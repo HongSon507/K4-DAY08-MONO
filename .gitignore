@@ -40,6 +40,9 @@ data/_tmp_pdf/
 
 # Temp / cache
 .pytest_cache/
+.crawl4ai/
+chroma_db/
+.model_cache/
 *.tmp
 *.log
 pageindex_doc_ids.json

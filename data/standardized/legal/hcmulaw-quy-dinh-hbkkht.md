@@ -1,13 +1,13 @@
 ---
-doc_id: hcmulaw-quy-dinh-hbkkht
-title: Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM
+doc_id: "hcmulaw-quy-dinh-hbkkht"
+title: "Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM"
 source_url: "https://pctsv.hcmulaw.edu.vn/Resources/Docs/SubDomain/pctsv/uoloadNewFolder/B%E1%BB%98%20C%C3%94NG%20C%E1%BB%A4%20C%E1%BB%90%20V%E1%BA%A4N%20H%E1%BB%8CC%20T%E1%BA%ACP/Quy%20%C4%91%E1%BB%8Bnh%20V%E1%BB%81%20h%E1%BB%8Dc%20b%E1%BB%95ng%20khuy%E1%BA%BFn%20kh%C3%ADch%20h%E1%BB%8Dc%20t%E1%BA%ADp%20cho%20sinh%20vi%C3%AAn.pdf"
-retrieved_at: 2026-09-20
-document_version: not-stated
-audience: student
-institution: hcmulaw
-category: merit-scholarship
-language: vi
+retrieved_at: "2026-09-20"
+document_version: "46/QĐ-ĐHL (2019-01-09)"
+audience: "student"
+institution: "hcmulaw"
+category: "merit-scholarship"
+language: "vi"
 ---
 
 # Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM

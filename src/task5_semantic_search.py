@@ -5,6 +5,7 @@ Embed query bằng chính hàm của Task 4, query ChromaDB và đổi cosine di
 thành similarity. Output phải theo SearchResult, sort giảm dần và không quá top_k.
 """
 
+from .contracts import validate_search_results
 from .task4_chunking_indexing import embed_texts, get_collection
 
 
@@ -15,13 +16,18 @@ def semantic_search(query: str, top_k: int = 10) -> list[dict]:
     Task 9 dùng chính giá trị này để quyết định fallback, nên không được
     chuẩn hoá lại hay trộn với thang điểm khác ở đây.
     """
-    if not query.strip():
+    if not query.strip() or top_k <= 0:
+        return []
+
+    collection = get_collection()
+    count = collection.count() if hasattr(collection, "count") else None
+    if count == 0:
         return []
 
     query_vector = embed_texts([query])[0]
-    response = get_collection().query(
+    response = collection.query(
         query_embeddings=[query_vector],
-        n_results=top_k,
+        n_results=min(top_k, count) if count is not None else top_k,
         include=["documents", "metadatas", "distances"],
     )
 
@@ -40,14 +46,16 @@ def semantic_search(query: str, top_k: int = 10) -> list[dict]:
             {
                 "id": item_id,
                 "content": content,
-                "score": max(0.0, 1.0 - float(distance)),
+                "score": 1.0 - float(distance),
                 "metadata": dict(metadata or {}),
                 "retrieval_method": "dense",
             }
         )
 
     results.sort(key=lambda item: item["score"], reverse=True)
-    return results[:top_k]
+    output = results[:top_k]
+    validate_search_results(output, top_k=top_k, expected_method="dense")
+    return output
 
 
 if __name__ == "__main__":

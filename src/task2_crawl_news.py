@@ -10,6 +10,7 @@ Cài browser trước khi chạy:
 
 import asyncio
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -24,6 +25,26 @@ DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 # Dưới ngưỡng này coi như bộ lọc đã cắt nhầm hết nội dung.
 MIN_CONTENT_CHARS = 500
+MIN_ARTICLES = 5
+
+# Thử hai vùng semantic phổ biến trước khi fallback về toàn trang.
+# Mỗi lần crawl chỉ dùng một selector: nếu truyền nhiều selector
+# lồng nhau cho target_elements, Crawl4AI sẽ ghép cùng nội dung nhiều lần.
+CONTENT_SELECTORS = (
+    "main",
+    "article",
+)
+
+EXCLUDED_SELECTOR = ", ".join(
+    (
+        ".breadcrumb",
+        ".breadcrumbs",
+        ".related-posts",
+        ".post-related",
+        ".sidebar",
+        ".social-share",
+    )
+)
 
 # doc_id giữ nguyên từ Day 7 để ID ổn định xuyên suốt pipeline.
 ARTICLES: list[dict] = [
@@ -58,6 +79,7 @@ ARTICLES: list[dict] = [
         "institution": "ueh",
         "department": "human-resources",
         "category": "faculty-funding",
+        "stop_pattern": r"^\*\*Cơ quan báo chí đưa tin:\*\*",
     },
     {
         "doc_id": "uet-merit-scholarship-2025-2026",
@@ -66,6 +88,7 @@ ARTICLES: list[dict] = [
         "institution": "uet",
         "department": "student-affairs",
         "category": "merit-scholarship",
+        "stop_pattern": r"^#####\s+\[",
     },
     {
         "doc_id": "rmit-business-scholarship-2026",
@@ -74,6 +97,8 @@ ARTICLES: list[dict] = [
         "institution": "rmit-vietnam",
         "department": "scholarship-office",
         "category": "merit-scholarship",
+        "start_pattern": r"^## Bachelor of Business Scholarship\s*$",
+        "stop_pattern": r"^\s*\* Copyright ©",
     },
     {
         "doc_id": "rmit-current-student-scholarship-2026",
@@ -82,6 +107,8 @@ ARTICLES: list[dict] = [
         "institution": "rmit-vietnam",
         "department": "scholarship-office",
         "category": "current-student-scholarship",
+        "start_pattern": r"^## Academic Achievement Scholarship for Current Students\s*$",
+        "stop_pattern": r"^\s*\* Copyright ©",
     },
 ]
 
@@ -105,14 +132,52 @@ def _build_configs():
             content_filter=PruningContentFilter(threshold=0.5, threshold_type="dynamic")
         )
 
-    return [
+    scoped = [
         CrawlerRunConfig(
             markdown_generator=generator(),
-            target_elements=["main", "article", "[role=main]", ".entry-content", ".post-content"],
+            target_elements=[selector],
             excluded_tags=excluded,
-        ),
-        CrawlerRunConfig(markdown_generator=generator(), excluded_tags=excluded),
+            excluded_selector=EXCLUDED_SELECTOR,
+        )
+        for selector in CONTENT_SELECTORS
     ]
+    scoped.append(
+        CrawlerRunConfig(
+            markdown_generator=generator(),
+            excluded_tags=excluded,
+            excluded_selector=EXCLUDED_SELECTOR,
+        )
+    )
+    return scoped
+
+
+def _normalize_markdown(markdown: str) -> str:
+    """Chuẩn hóa khoảng trắng mà không làm thay đổi nội dung."""
+    markdown = markdown.replace("\r\n", "\n").replace("\r", "\n")
+    markdown = re.sub(r"[ \t]+\n", "\n", markdown)
+    markdown = re.sub(r"\n{3,}", "\n\n", markdown)
+    return markdown.strip()
+
+
+def _trim_source_boilerplate(markdown: str, url: str) -> str:
+    """Cắt menu/footer theo ranh giới ổn định của từng nguồn."""
+    source = next((item for item in ARTICLES if item["url"] == url), {})
+    trimmed = markdown
+
+    start_pattern = source.get("start_pattern")
+    if start_pattern:
+        match = re.search(start_pattern, trimmed, flags=re.MULTILINE)
+        if match:
+            trimmed = trimmed[match.start() :]
+
+    stop_pattern = source.get("stop_pattern")
+    if stop_pattern:
+        match = re.search(stop_pattern, trimmed, flags=re.MULTILINE)
+        if match:
+            trimmed = trimmed[: match.start()]
+
+    trimmed = trimmed.strip()
+    return trimmed if len(trimmed) >= MIN_CONTENT_CHARS else markdown
 
 
 async def crawl_article(url: str) -> dict:
@@ -136,20 +201,32 @@ async def crawl_article(url: str) -> dict:
 
             if not result.success:
                 last_error = result.error_message or "crawl failed"
+                # Không thử liên tiếp nhiều selector khi website đã chặn;
+                # việc đó chỉ tạo thêm request và không thể cải thiện nội dung.
+                if "anti-bot" in last_error.lower() or "cloudflare" in last_error.lower():
+                    break
                 continue
 
-            markdown = str(getattr(result.markdown, "fit_markdown", "") or "").strip()
+            markdown = _normalize_markdown(
+                str(getattr(result.markdown, "fit_markdown", "") or "")
+            )
             if len(markdown) < MIN_CONTENT_CHARS:
-                markdown = str(getattr(result.markdown, "raw_markdown", "") or "").strip()
+                markdown = _normalize_markdown(
+                    str(getattr(result.markdown, "raw_markdown", "") or "")
+                )
             if len(markdown) < MIN_CONTENT_CHARS:
                 last_error = f"nội dung quá ngắn ({len(markdown)} ký tự)"
                 continue
+
+            markdown = _trim_source_boilerplate(markdown, url)
 
             metadata = result.metadata or {}
             return {
                 "url": url,
                 "title": (metadata.get("title") or url).strip(),
-                "date_crawled": datetime.now().isoformat(timespec="seconds"),
+                "date_crawled": datetime.now()
+                .astimezone()
+                .isoformat(timespec="seconds"),
                 "content_markdown": markdown,
             }
 
@@ -187,6 +264,10 @@ async def crawl_all() -> None:
         print(f"Saved: {output.name} ({len(payload['content_markdown'])} chars)")
 
     print(f"\n{saved}/{len(ARTICLES)} bài đã lưu vào {DATA_DIR}")
+    if saved < MIN_ARTICLES:
+        raise RuntimeError(
+            f"Corpus chỉ crawl được {saved} bài; yêu cầu tối thiểu {MIN_ARTICLES}"
+        )
 
 
 if __name__ == "__main__":

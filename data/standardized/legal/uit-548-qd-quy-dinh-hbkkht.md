@@ -1,13 +1,13 @@
 ---
-doc_id: uit-548-qd-hbkkht
-title: Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)
+doc_id: "uit-548-qd-hbkkht"
+title: "Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)"
 source_url: "https://ctsv.uit.edu.vn/sites/default/files/202109/548_qd-dhcntt-quy-dinh-hbkkht.pdf"
-retrieved_at: 2026-09-20
-document_version: 548/QĐ-ĐHCNTT
-audience: student
-institution: uit
-category: merit-scholarship
-language: vi
+retrieved_at: "2026-09-20"
+document_version: "548/QĐ-ĐHCNTT"
+audience: "student"
+institution: "uit"
+category: "merit-scholarship"
+language: "vi"
 ---
 
 # Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)
