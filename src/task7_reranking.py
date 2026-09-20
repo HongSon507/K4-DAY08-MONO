@@ -48,4 +48,22 @@ def rerank_rrf(
 
 
 if __name__ == "__main__":
-    print("Implement rerank_rrf, then run contract tests.")
+    import sys
+
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+    from .task5_semantic_search import semantic_search
+    from .task6_lexical_search import lexical_search
+
+    query = "Học bổng khuyến khích học tập của UET"
+    dense_results = semantic_search(query, top_k=5)
+    lexical_results = lexical_search(query, top_k=5)
+
+    fused = rerank_rrf([dense_results, lexical_results], top_k=5)
+    print(f"Query: {query}")
+    print(f"RRF Hybrid Results (top {len(fused)}):")
+    for r in fused:
+        print(f"  {r['score']:.5f}  [{r['retrieval_method']}]  {r['id']}")
+        print(f"         {' '.join(r['content'].split())[:100]}")
+
