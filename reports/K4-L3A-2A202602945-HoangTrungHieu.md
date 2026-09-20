@@ -5,7 +5,7 @@
 - Họ và tên: Hoàng Trung Hiếu
 - Mã học viên: 2A202602945
 - Nhóm: Mono
-- Repository/branch: https://github.com/HongSon507/K4-L3A-RAG-Pipeline — `main`
+- Repository/branch: https://github.com/HongSon507/K4-DAY08-MONO — `main`
 
 ## Phần việc đã thực hiện
 
