@@ -1,0 +1,1128 @@
+{
+  "top_k": 5,
+  "score_threshold": 0.44,
+  "generator_model": "gpt-4o-mini",
+  "evaluator_model": "gpt-4o-mini",
+  "rows": [
+    {
+      "id": "Q01",
+      "config": "A_dense_only",
+      "question": "Học bổng President's Excellence của VinUni chi trả những gì?",
+      "answer": "Không tìm thấy thông tin về học bổng President's Excellence của VinUni trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. **Future Leader Grant:** For those outstanding students who are offered 80 – 90% scholarship but the remaining 10% – 20% of tuition remains an obstacle, this grant removes this last barrier, opening the door for deserving young people to study at VinUniversity. To learn more about this grant, please visit [**[HERE]**.](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/current-students/)",
+        "## Prospective Undergraduates\n_To further support the mission of nurturing talent, Vingroup, the Founder of VinUniversity, has reaffirmed its unwavering commitment to sustaining the University’s Scholarship Fund for future generations of VinUniversity students._\n### **Tuition Subsidy**\nFrom 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.\n### **Merit-based Scholarships**",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "3. **Vinschool-VinUni Scholarship:** Covers a 5% tuition waiver for Vinschool graduates who are admitted to VinUniversity.\n  4. **Vingroup Family Scholarship:** Available for children of Vingroup employees and executives, as part of the Group’s commitment to fostering talent within its community.",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_"
+      ],
+      "reference": "Đây là học bổng toàn phần (full-ride), chi trả 100% học phí và cả chi phí sinh hoạt.",
+      "expected_context": "President's Excellence Scholarship: Full-ride scholarship (Covers 100% of tuition and living expenses).",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "undergraduate-scholarships.md",
+        "undergraduate-scholarships.md",
+        "ueh-learning-support-scholarship.md",
+        "undergraduate-scholarships.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q02",
+      "config": "A_dense_only",
+      "question": "Sinh viên VinUni cần GPA tối thiểu bao nhiêu để duy trì học bổng 100%?",
+      "answer": "Không tìm thấy thông tin về yêu cầu GPA tối thiểu để duy trì học bổng 100% cho sinh viên VinUni trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "* For Vietnamese high school transcripts that do not include a yearly cumulative GPA, the Scholarships Office will calculate the GPA for each year by averaging the GPA of the subjects assessed on the 10-point scale. Subjects assessed as pass/fail will not be included in the calculation.",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Cần duy trì GPA tích lũy từ 3.2 trở lên trong năm học được đánh giá, tính trung bình hai học kỳ chính Fall và Spring, đồng thời không vi phạm kỷ luật mức Tier 3 hoặc Tier 4.",
+      "expected_context": "Renewal is contingent upon: Maintaining a cumulative GPA of 3.2 or higher in the academic year under evaluation (calculated as the average of the two main semesters: Fall and Spring).",
+      "expected_doc_id": "scholarship-renewal-policy",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "rmit-business-scholarship-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q03",
+      "config": "A_dense_only",
+      "question": "VinUni hỗ trợ học phí bao nhiêu phần trăm cho sinh viên nhập học giai đoạn 2025-2030?",
+      "answer": "VinUniversity sẽ cấp hỗ trợ học phí 35% cho tất cả sinh viên nhập học trong giai đoạn 2025-2030, áp dụng trong toàn bộ thời gian học của họ [Document 1].",
+      "contexts": [
+        "## Prospective Undergraduates\n_To further support the mission of nurturing talent, Vingroup, the Founder of VinUniversity, has reaffirmed its unwavering commitment to sustaining the University’s Scholarship Fund for future generations of VinUniversity students._\n### **Tuition Subsidy**\nFrom 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.\n### **Merit-based Scholarships**",
+        "05/12/2025 \n### Bài viết liên quan\n##### [Điều chỉnh đối tượng xét học bổng Data Nest năm học 2026-2027](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)\n14/09/2026 \n##### [Học bổng EVN, năm học 2025-2026](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)\n14/09/2026 \n##### [Chương trình Học bổng Tài năng Pegatron 2027](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)\n14/09/2026",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "05/12/2025 \n### Bài viết liên quan\n##### [Điều chỉnh đối tượng xét học bổng Data Nest năm học 2026-2027](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)\n14/09/2026 \n##### [Học bổng EVN, năm học 2025-2026](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)\n14/09/2026 \n##### [Chương trình Học bổng Tài năng Pegatron 2027](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)\n14/09/2026",
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**"
+      ],
+      "reference": "Tất cả sinh viên nhập học VinUni từ 2025 đến 2030 được hỗ trợ 35% học phí, áp dụng trong suốt thời gian học.",
+      "expected_context": "From 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "undergraduate-scholarships.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-faculty-support.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6772629605550229,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q04",
+      "config": "A_dense_only",
+      "question": "Học bổng Dean's Distinction của VinUni chi trả bao nhiêu phần trăm học phí?",
+      "answer": "Học bổng Dean’s Distinction của VinUni chi trả 80% hoặc 90% học phí [Document 5].",
+      "contexts": [
+        "2. **Future Leader Grant:** For those outstanding students who are offered 80 – 90% scholarship but the remaining 10% – 20% of tuition remains an obstacle, this grant removes this last barrier, opening the door for deserving young people to study at VinUniversity. To learn more about this grant, please visit [**[HERE]**.](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/current-students/)",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "3. **Vinschool-VinUni Scholarship:** Covers a 5% tuition waiver for Vinschool graduates who are admitted to VinUniversity.\n  4. **Vingroup Family Scholarship:** Available for children of Vingroup employees and executives, as part of the Group’s commitment to fostering talent within its community.",
+        "## Prospective Undergraduates\n_To further support the mission of nurturing talent, Vingroup, the Founder of VinUniversity, has reaffirmed its unwavering commitment to sustaining the University’s Scholarship Fund for future generations of VinUniversity students._\n### **Tuition Subsidy**\nFrom 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.\n### **Merit-based Scholarships**",
+        "3. **Dean’s Distinction Scholarship** : Covers 80% or 90% of tuition.\n  4. **Discipline’s Honor Scholarship** : Covers 50%, 60%, or 70% of tuition."
+      ],
+      "reference": "Học bổng Dean's Distinction chi trả 80% hoặc 90% học phí.",
+      "expected_context": "Dean's Distinction Scholarship: Covers 80% or 90% of tuition.",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "undergraduate-scholarships.md",
+        "ueh-learning-support-scholarship.md",
+        "undergraduate-scholarships.md",
+        "undergraduate-scholarships.md",
+        "undergraduate-scholarships.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7434447004928278,
+      "context_precision": 0.19999999998,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q05",
+      "config": "A_dense_only",
+      "question": "Ở UET, học bổng loại Giỏi cho sinh viên chương trình chuẩn khóa QH-2021 là bao nhiêu mỗi tháng?",
+      "answer": "Không tìm thấy thông tin về mức học bổng loại Giỏi cho sinh viên chương trình chuẩn khóa QH-2021 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Mức học bổng loại Giỏi cho chương trình chuẩn khóa QH-2021 là 1.950.000đ mỗi sinh viên mỗi tháng.",
+      "expected_context": "Chuẩn, khóa QH-2021: Loại Xuất sắc 2.050.000đ, Loại Giỏi 1.950.000đ, Loại Khá 1.850.000đ.",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q06",
+      "config": "A_dense_only",
+      "question": "Sinh viên UET phải hoàn thành tối thiểu bao nhiêu tín chỉ để được xét học bổng khuyến khích học tập?",
+      "answer": "Sinh viên UET phải hoàn thành ít nhất 15 tín chỉ để được xét học bổng khuyến khích học tập, trừ trường hợp ít hơn phải có đề xuất từ Khoa/Viện [Document 1].",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên phải hoàn thành ít nhất 15 tín chỉ; trường hợp ít hơn phải có đề xuất từ Khoa hoặc Viện.",
+      "expected_context": "Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5113127403118404,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q07",
+      "config": "A_dense_only",
+      "question": "Quỹ học bổng khuyến khích học tập của UET được trích lập từ nguồn nào?",
+      "answer": "Quỹ học bổng khuyến khích học tập của UET được trích lập từ nguồn thu học phí [Document 3].",
+      "contexts": [
+        "4. Nguồn học bổng:\n\na) Đối với trường chuyên, trường năng khiếu nghệ thuật, thể dục, thể thao: Học bổng\nkhuyến khích học tập được bố trí trong dự toán chi ngân sách địa phương để cấp cho\ntối  thiểu 30% số  học  sinh  chuyên  của trường.  Đối với  khối trung học phổ thông\n\n\fchuyên trong cơ sở giáo dục đại học, học bổng khuyến khích học tập được bố trí từ\nnguồn thu hợp pháp của cơ sở giáo dục đại học và từ nguồn thu hợp pháp của trường\ntrung học phổ thông chuyên;",
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "#### Người học bổ sung minh chứng về hoàn cảnh khó khăn đột xuất của mình để được sự hỗ trợ từ UEH (Ví dụ: trường hợp sinh viên bị tai nạn, có thể cung cấp minh chứng bệnh án) qua email của Phòng Chăm sóc và hỗ trợ người học (DSA): dsa@ueh.edu.vn\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_"
+      ],
+      "reference": "Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học và khóa học.",
+      "expected_context": "Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học.",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "nghi-dinh-84-2020-nd-cp-hoc-bong.md",
+        "ueh-faculty-support.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6234546939810754,
+      "context_precision": 0.4166666666458333,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q08",
+      "config": "A_dense_only",
+      "question": "Sinh viên chương trình CNTT chất lượng cao của UET cần đạt kết quả gì để được xét học bổng?",
+      "answer": "Không tìm thấy thông tin cụ thể về yêu cầu kết quả xét học bổng cho sinh viên chương trình CNTT chất lượng cao của UET trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên chương trình CNTT chất lượng cao cần đạt kết quả học tập loại Giỏi trở lên và rèn luyện loại Tốt trở lên, cao hơn mức Khá áp dụng cho chương trình chuẩn.",
+      "expected_context": "Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu kết quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q09",
+      "config": "A_dense_only",
+      "question": "Học bổng Cử nhân Kinh doanh của RMIT Việt Nam trị giá bao nhiêu và yêu cầu GPA lớp 12 thế nào?",
+      "answer": "Không tìm thấy thông tin về học bổng Cử nhân Kinh doanh của RMIT Việt Nam cũng như yêu cầu GPA lớp 12 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "## Selection criteria\n  * Applicants are assessed and ranked by cumulative GPA and credit points of RMIT Vietnam Higher Education study following the eligibility criteria.\n  * Where applicants have the same cumulative GPA, preference will be given to the applicant with the higher credit points. Where applicants have the same GPA and credit points earned, their academic performance of the latest semester will be considered.",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "| School of Communication & Design  | 01 x 50% and 01 x 25% of the remaining program tuition fees  |  \n| School of Science, Engineering & Technology  | 01 x 50% and 01 x 25% of the remaining program tuition fees  |  \n##### Note\nRMIT Vietnam reserves the right to adjust the values and allocation of scholarships at its discretion.\n## Eligibility\nTo be considered for this scholarship, the applicant must:\n  * Be an RMIT Vietnam student currently enrolled in a Bachelor’s program (*).",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Học bổng trị giá 50% học phí toàn khóa, yêu cầu thí sinh là công dân Việt Nam và có điểm trung bình lớp 12 tối thiểu 8.5/10.0.",
+      "expected_context": "Value 50% of the program tuition fees. To be eligible: Be a citizen of Vietnam; Have completed high school with a minimum grade 12 GPA of 8.5/10.0.",
+      "expected_doc_id": "rmit-business-scholarship-2026",
+      "retrieved_sources": [
+        "rmit-current-student-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "rmit-current-student-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q10",
+      "config": "A_dense_only",
+      "question": "Hạn nộp hồ sơ học bổng Cử nhân Kinh doanh RMIT 2026 là khi nào?",
+      "answer": "Hạn nộp hồ sơ học bổng Cử nhân Kinh doanh RMIT 2026 là 3 tháng 7 năm 2026, trước 5:00pm GMT +7 [Document 1].",
+      "contexts": [
+        "## Key dates\n  * Applications close: 3 July 2026, 5:00pm GMT +7\n  * Release of outcome: by 25 September 2026\n\n\n### Contact us\nIf you have questions about your scholarship application, or the outcome, please contact the Scholarship Office via scholarships@rmit.edu.vn. \n#### Download documents\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  * Copyright © 2026 RMIT University \n  * ABN 49 781 030 034 \n  * CRICOS provider number: 00122A \n  * RTO Code: 3046",
+        "* Your IELTS test result must still be within its two-year validity period on the start date of your intended intake semester in 2026.\n  * Have applied for admission to the [Bachelor of Business program](https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/bachelor-business) at RMIT Vietnam and meet the program entry requirements (conditional offer may be considered);",
+        "04/12/2025 \n[Bài tiếp theo](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)\n#####  [Chương trình học bổng theo diện hiệp định giữa Việt Nam và Trung Quốc năm 2026](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)\n05/12/2025 \n### Bài viết liên quan",
+        "04/12/2025 \n[Bài tiếp theo](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)\n#####  [Chương trình học bổng theo diện hiệp định giữa Việt Nam và Trung Quốc năm 2026](https://uet.edu.vn/chuong-trinh-hoc-bong-theo-dien-hiep-dinh-giua-viet-nam-va-trung-quoc-nam-2026/)\n05/12/2025 \n### Bài viết liên quan",
+        "Outcome release\n    \n25 September 2026\n## Overview\nThe scholarship is available exclusively to new students who have achieved outstanding academic performance in high school and will be enrolling in the [Bachelor of Business program ](https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/bachelor-business)at RMIT Vietnam.   \n| Campus  | Number of scholarships and value  |  \n| --- | --- |  \n| Saigon South campus  | 01 x 50% of the respective Bachelor’s degree program  |"
+      ],
+      "reference": "Hồ sơ mở từ ngày 12/01/2026 và đóng ngày 03/07/2026; kết quả công bố ngày 25/09/2026.",
+      "expected_context": "Applications Open 12 January 2026. Applications close 3 July 2026. Outcome release 25 September 2026.",
+      "expected_doc_id": "rmit-business-scholarship-2026",
+      "retrieved_sources": [
+        "rmit-business-scholarship-2026.md",
+        "rmit-business-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "rmit-business-scholarship-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7083891989643413,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.5
+    },
+    {
+      "id": "Q11",
+      "config": "A_dense_only",
+      "question": "Sinh viên RMIT Việt Nam đang học cần bao nhiêu tín chỉ và GPA để xin học bổng thành tích 2026?",
+      "answer": "Không tìm thấy thông tin về yêu cầu tín chỉ và GPA để xin học bổng thành tích 2026 cho sinh viên RMIT Việt Nam trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "## Selection criteria\n  * Applicants are assessed and ranked by cumulative GPA and credit points of RMIT Vietnam Higher Education study following the eligibility criteria.\n  * Where applicants have the same cumulative GPA, preference will be given to the applicant with the higher credit points. Where applicants have the same GPA and credit points earned, their academic performance of the latest semester will be considered.",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên phải đang học chương trình cử nhân, đã hoàn thành ít nhất 96 tín chỉ và đạt GPA tích lũy từ 3.4 trở lên trên thang 4.0.",
+      "expected_context": "Have completed at least 96 credit points. Have achieved a cumulative GPA of 3.4 (on a 4.0 scale) or above.",
+      "expected_doc_id": "rmit-current-student-scholarship-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "rmit-current-student-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.4166666666458333,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q12",
+      "config": "A_dense_only",
+      "question": "RMIT Việt Nam cấp bao nhiêu suất học bổng thành tích cho sinh viên đang học trong năm 2026?",
+      "answer": "Không tìm thấy thông tin về số suất học bổng thành tích cho sinh viên đang học tại RMIT Việt Nam trong năm 2026 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "Outcome release\n    \n25 September 2026\n## Overview\nThe scholarship is available exclusively to new students who have achieved outstanding academic performance in high school and will be enrolling in the [Bachelor of Business program ](https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/bachelor-business)at RMIT Vietnam.   \n| Campus  | Number of scholarships and value  |  \n| --- | --- |  \n| Saigon South campus  | 01 x 50% of the respective Bachelor’s degree program  |",
+        "Duration\n    \nRemaining courses in program\n## Overview\nIn 2026, 21 scholarships are on offer to currently enrolled RMIT Vietnam undergraduate students who have achieved outstanding academic results.\nThe scholarships are awarded semesterly in Semester 1, 2 and 3 of 2026, as follows:  \n| \n### School\n | \n### Number of scholarships and value per semester\n |  \n| --- | --- |  \n| The Business School  | 01 x 50% and 02 x 25% of the remaining program tuition fees  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Năm 2026 có 21 suất, gồm 9 suất trị giá 50% và 12 suất trị giá 25% học phí các môn còn lại.",
+      "expected_context": "In 2026, 21 scholarships are on offer. Number of scholarships: 9 x 50%, 12 x 25%.",
+      "expected_doc_id": "rmit-current-student-scholarship-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "rmit-business-scholarship-2026.md",
+        "rmit-current-student-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.249999999975,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q13",
+      "config": "A_dense_only",
+      "question": "Học bổng hỗ trợ học tập toàn phần của UEH trị giá bao nhiêu?",
+      "answer": "Không tìm thấy thông tin cụ thể về trị giá học bổng hỗ trợ học tập toàn phần của UEH trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**",
+        "#### Người học bổ sung minh chứng về hoàn cảnh khó khăn đột xuất của mình để được sự hỗ trợ từ UEH (Ví dụ: trường hợp sinh viên bị tai nạn, có thể cung cấp minh chứng bệnh án) qua email của Phòng Chăm sóc và hỗ trợ người học (DSA): dsa@ueh.edu.vn\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "Theo đó, mức lương cố định hàng tháng mà các GS, PGS tại UEH nhận được dao động từ 52-120 triệu đồng/tháng, chưa bao gồm thu nhập từ hoạt động giảng dạy vượt định mức, hoạt động đào tạo & nghiên cứu khoa học khác cùng thu nhập bổ sung nhân dịp Tết.\n_*Tìm hiểu thông tin chi tiết về chính sách ưu đãi của UEH tại ._",
+        "**Hỗ trợ đến 500 triệu đồng để thu hút nhân tài**\nTheo đó, các nhà giáo, học giả có **học hàm, học vị cao (GS, PGS, TS) ứng tuyển và trở thành giảng viên, viên chức UEH** sẽ nhận được mức hỗ trợ cụ thể:\n  * Giáo sư (GS): 500 triệu đồng/người\n  * Phó Giáo sư (PGS): 300 triệu đồng/người\n  * Tiến sĩ (TS): 150 triệu đồng/người"
+      ],
+      "reference": "Bằng 100% mức học phí trung bình của 15 tín chỉ, tương đương một học kỳ của từng khóa xét học bổng.",
+      "expected_context": "Học bổng toàn phần: Trị giá bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-faculty-support.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.49999999995,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q14",
+      "config": "A_dense_only",
+      "question": "Điều kiện rèn luyện để nhận học bổng bán phần của UEH khác gì so với toàn phần?",
+      "answer": "Không tìm thấy thông tin về điều kiện rèn luyện để nhận học bổng bán phần của UEH trong các tài liệu đã cung cấp. Tất cả các tài liệu chỉ đề cập đến điều kiện tham gia học bổng mà không phân biệt giữa học bổng bán phần và toàn phần.",
+      "contexts": [
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "## **3. Điều kiện tham gia học bổng**\n  * #### Sinh viên thuộc diện mồ côi, hộ nghèo, hộ cận nghèo hoặc có hoàn cảnh gia đình khó khăn;\n\n\n  * #### Có kết quả học tập đạt từ Trung bình khá trở lên và kết quả rèn luyện từ loại Khá trở lên;\n\n\n  * #### Đối với tất cả học phần đăng ký trong học kỳ trước đó đạt từ 5.0 điểm trở lên;\n\n\n  * #### Không bị kỷ luật từ mức khiển trách trở lên trong học kỳ xét;",
+        "#### + Hoàn cảnh khó khăn\n#### + Kết quả học tập\n#### + Kết quả rèn luyện\n> # HỌC BỔNG DOANH NGHIỆP\n  * #### Học bổng doanh nghiệp: là học bổng được các cá nhân, đơn vị/tổ chức ngoài UEH (đơn vị tài trợ) cấp cho sinh viên bằng nhiều hình thức được UEH liên kết, tiếp nhận và triển khai trong năm.\n  * #### Thời gian triển khai, đối tượng xét học bổng, số suất và trị giá học bổng sẽ do đơn vị tài trợ quy định và triển khai xuyên suốt trong năm.",
+        "## **3. Điều kiện tham gia học bổng**\n  * #### Sinh viên thuộc diện mồ côi, hộ nghèo, hộ cận nghèo hoặc có hoàn cảnh gia đình khó khăn;\n\n\n  * #### Có kết quả học tập đạt từ Trung bình khá trở lên và kết quả rèn luyện từ loại Khá trở lên;\n\n\n  * #### Đối với tất cả học phần đăng ký trong học kỳ trước đó đạt từ 5.0 điểm trở lên;\n\n\n  * #### Không bị kỷ luật từ mức khiển trách trở lên trong học kỳ xét;",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:"
+      ],
+      "reference": "Học bổng bán phần trị giá 50% học phí và yêu cầu rèn luyện từ loại Khá trở lên, trong khi toàn phần trị giá 100% và yêu cầu rèn luyện từ loại Tốt trở lên.",
+      "expected_context": "Học bổng bán phần: Trị giá bằng 50% mức học phí trung bình của 15 tín chỉ; cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q15",
+      "config": "A_dense_only",
+      "question": "UEH xét học bổng hỗ trợ học tập vào thời gian nào trong năm?",
+      "answer": "UEH xét học bổng hỗ trợ học tập vào hai thời gian trong năm: học kỳ đầu từ tháng 4 đến tháng 5 và học kỳ cuối từ tháng 10 đến tháng 11 [Document 2].",
+      "contexts": [
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "> # HỌC BỔNG HỖ TRỢ ĐỘT XUẤT\n  * #### **MỤC TIÊU:** Hỗ trợ sinh viên có hoàn cảnh khó khăn đột xuất cần sự hỗ trợ từ UEH để hoàn thành việc học trong thời gian khó khăn.\n  * #### **ĐỐI TƯỢNG:** Người học các bậc hệ tại UEH và đang trong quá trình học tại UEH (không bảo lưu) Hướng dẫn đăng ký",
+        "#### Người học bổ sung minh chứng về hoàn cảnh khó khăn đột xuất của mình để được sự hỗ trợ từ UEH (Ví dụ: trường hợp sinh viên bị tai nạn, có thể cung cấp minh chứng bệnh án) qua email của Phòng Chăm sóc và hỗ trợ người học (DSA): dsa@ueh.edu.vn\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:"
+      ],
+      "reference": "Học kỳ đầu xét vào tháng 4 đến tháng 5, học kỳ cuối xét vào tháng 10 đến tháng 11.",
+      "expected_context": "Thời gian xét học bổng: Học kỳ đầu: Tháng 4 - tháng 5. Học kỳ cuối: Tháng 10 - tháng 11.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-faculty-support.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5630344496913419,
+      "context_precision": 0.4499999999775,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q16",
+      "config": "A_dense_only",
+      "question": "UEH hỗ trợ bao nhiêu tiền để thu hút giảng viên có học hàm Giáo sư?",
+      "answer": "UEH hỗ trợ 500 triệu đồng để thu hút giảng viên có học hàm Giáo sư (GS) [Document 1].",
+      "contexts": [
+        "**Hỗ trợ đến 500 triệu đồng để thu hút nhân tài**\nTheo đó, các nhà giáo, học giả có **học hàm, học vị cao (GS, PGS, TS) ứng tuyển và trở thành giảng viên, viên chức UEH** sẽ nhận được mức hỗ trợ cụ thể:\n  * Giáo sư (GS): 500 triệu đồng/người\n  * Phó Giáo sư (PGS): 300 triệu đồng/người\n  * Tiến sĩ (TS): 150 triệu đồng/người",
+        "Bên cạnh thu hút nhân lực mới, UEH triển khai **chính sách khuyến khích đối với viên chức, người lao động không ngừng nâng cấp nội lực** , cụ thể:\n  * 150 triệu đồng/người khi được bổ nhiệm Giáo sư tại UEH\n  * 100 triệu đồng/người đối với Phó Giáo sư\n  * 50 triệu đồng/người đối với Tiến sĩ",
+        "Theo đó, mức lương cố định hàng tháng mà các GS, PGS tại UEH nhận được dao động từ 52-120 triệu đồng/tháng, chưa bao gồm thu nhập từ hoạt động giảng dạy vượt định mức, hoạt động đào tạo & nghiên cứu khoa học khác cùng thu nhập bổ sung nhân dịp Tết.\n_*Tìm hiểu thông tin chi tiết về chính sách ưu đãi của UEH tại ._",
+        "10. Báo Phụ nữ TP.HCM: [Đại học Kinh tế TPHCM tuyển giáo sư với mức hỗ trợ 500 triệu đồng/người](https://www.phunuonline.com.vn/dai-hoc-kinh-te-tphcm-tuyen-giao-su-voi-muc-ho-tro-500-trieu-dong-nguoi-a1578194.html)\n11. Báo Việt Nam Net: [Một đại học chi 'lót tay' nửa tỷ thu hút giáo sư, trả lương tới 120 triệu đồng/tháng](https://vietnamnet.vn/mot-dai-hoc-chi-lot-tay-nua-ty-thu-hut-giao-su-tra-luong-toi-120-trieu-thang-2500089.html)",
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**"
+      ],
+      "reference": "Giáo sư được hỗ trợ 500 triệu đồng/người, Phó Giáo sư 300 triệu đồng/người và Tiến sĩ 150 triệu đồng/người.",
+      "expected_context": "Giáo sư (GS): 500 triệu đồng/người; Phó Giáo sư (PGS): 300 triệu đồng/người; Tiến sĩ (TS): 150 triệu đồng/người.",
+      "expected_doc_id": "ueh-faculty-support",
+      "retrieved_sources": [
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5246167246789757,
+      "context_precision": 0.7499999999625,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q17",
+      "config": "A_dense_only",
+      "question": "Quỹ học bổng khuyến khích học tập của Trường Đại học Luật TP.HCM được trích lập bao nhiêu phần trăm?",
+      "answer": "Quỹ học bổng khuyến khích học tập của Trường Đại học Luật TP.HCM được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học [Document 5].",
+      "contexts": [
+        "# Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM\n\nQUY ĐỊNH\n\nVề học bổng khuyến khích học tập cho sinh viên đại học\n\nTrường Đại học Luật Thành phố Hồ Chí Minh\n\n(Ban hành kèm theo Quyết định 46/QĐ-ĐHL ngày 09/01/2019 của Hiệu trưởng Trường\nđại học Luật Thành phố Hồ Chí Minh)\n\n  Căn cứ Quyết định số 521/QĐ-TTg ngày 18/04/2017 của Thủ tướng Chính phủ về việc\nphê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Luật TP. Hồ Chí\nMinh;",
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "Điều 1. Đối tượng áp dụng\n\nQuy định này áp dụng đối với sinh viên đại học hệ chính quy văn bằng 1 của Trường Đại\n\nhọc Luật Thành phố Hồ Chí Minh, còn trong thời gian đào tạo theo kế hoạch của khóa học.\n\nĐiều 2. Quỹ học bổng\n\nQuỹ học bổng khuyến khích học tập được trích lập bằng 8% nguồn thu học phí của khóa,\n\nngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.\n\nVào đầu năm học, căn cứ vào số lượng sinh viên, học phí đào tạo, Hiệu trưởng sẽ quyết"
+      ],
+      "reference": "Quỹ được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.",
+      "expected_context": "Quỹ học bổng khuyến khích học tập được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.",
+      "expected_doc_id": "hcmulaw-quy-dinh-hbkkht",
+      "retrieved_sources": [
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "hcmulaw-quy-dinh-hbkkht.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5234848905848974,
+      "context_precision": 0.4777777777618519,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q18",
+      "config": "A_dense_only",
+      "question": "Mức học bổng loại xuất sắc của Trường Đại học Luật TP.HCM bằng bao nhiêu phần trăm học phí?",
+      "answer": "Không tìm thấy thông tin về mức học bổng loại xuất sắc của Trường Đại học Luật TP.HCM trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "Điều 1. Đối tượng áp dụng\n\nQuy định này áp dụng đối với sinh viên đại học hệ chính quy văn bằng 1 của Trường Đại\n\nhọc Luật Thành phố Hồ Chí Minh, còn trong thời gian đào tạo theo kế hoạch của khóa học.\n\nĐiều 2. Quỹ học bổng\n\nQuỹ học bổng khuyến khích học tập được trích lập bằng 8% nguồn thu học phí của khóa,\n\nngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.\n\nVào đầu năm học, căn cứ vào số lượng sinh viên, học phí đào tạo, Hiệu trưởng sẽ quyết",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Học bổng loại xuất sắc bằng 150% học phí chương trình đào tạo; loại giỏi bằng 100% học phí.",
+      "expected_context": "Mức học bổng loại xuất sắc: bằng 150% học phí chương trình đào tạo. Mức học bổng loại giỏi: bằng 100% học phí chương trình đào tạo.",
+      "expected_doc_id": "hcmulaw-quy-dinh-hbkkht",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 0.5
+    },
+    {
+      "id": "Q19",
+      "config": "A_dense_only",
+      "question": "Trường Đại học Công nghệ Thông tin yêu cầu tối thiểu bao nhiêu tín chỉ để xét học bổng khuyến khích học tập?",
+      "answer": "Không tìm thấy thông tin về yêu cầu tín chỉ để xét học bổng khuyến khích học tập của Trường Đại học Công nghệ Thông tin trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên phải có số tín chỉ tối thiểu là 14 tín chỉ; ngoài ra không được đăng ký ít hơn 8 tín chỉ trong học kỳ hiện tại.",
+      "expected_context": "Sinh viên phải có STC tối thiểu là 14 tín chỉ. KHÔNG cấp HB KKHT đối với sinh viên đăng ký học ít hơn 8 tín chỉ trong học kỳ hiện tại.",
+      "expected_doc_id": "uit-548-qd-hbkkht",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q20",
+      "config": "A_dense_only",
+      "question": "Theo Nghị định 84/2020/NĐ-CP, sinh viên đại học cần điều kiện gì để được xét học bổng khuyến khích học tập?",
+      "answer": "Không tìm thấy thông tin cụ thể về điều kiện để sinh viên đại học được xét học bổng khuyến khích học tập trong Nghị định 84/2020/NĐ-CP từ các tài liệu đã cung cấp.",
+      "contexts": [
+        "# Nghị định 84/2020/NĐ-CP — Chương IV: Học bổng khuyến khích học tập\n\nNghị định 84: Học bổng khuyến khích học tập dành cho học sinh, sinh viên\n\nNgày 17/07/2020, Chính phủ đã ban hành Nghị định 84/2020/NĐ-CP quy định\nchi tiết một số điều của Luật giáo dục 2019 . Nghị định này có hiệu lực từ ngày\n01/09/2020.\n\nTheo đó, Nghị định 84/2020/NĐ-CP Ngày 17/07/2020 quy định chi tiết về học bổng\nkhuyến khích học tập dành cho học sinh, sinh viên như sau:\n\nChương IV",
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "Văn bản hợp nhất số 28/VBHN-BGDĐT ngày 31/12/2014 của Bộ Giáo dục và Đào tạo\nhợp  nhất  Quyết  định  44/2007/QĐ-  BGDĐT  ngày  15/8/2007  và  Thông  tư  số  31/2013/TT-\nBGDĐT ngày 01/8/2013 của Bộ Giáo dục và Đào tạo về học bổng khuyến khích học tập đối\nvới học sinh, sinh viên trong các trường chuyên, trường năng khiếu, các cơ sở giáo dục đại\nhọc và trung cấp chuyên nghiệp thuộc hệ thống giáo dục quốc dân;\n\nĐiều 1. Đối tượng áp dụng",
+        "xét cấp học bổng Khuyến khích học tập (HB KKHT) cho sinh viên (SV) Đại học chính\nquy như sau:\nĐiều 1. Đối tượng và phạm vi áp dụng:\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn và phương thức thực hiện xét\nduyệt và cấp học bổng cho sinh viên hệ đại học chính quy khóa 2017, 2018, 2019, 2020\ncủa Trường Đại học Công nghệ Thông tin – Đại học Quốc gia TP.HCM (gọi tắt là Trường\nhoặc Trường ĐHCNTT) căn cứ quy định tại Nghị định số 84/2020/NĐ-CP ngày 17 tháng",
+        "# Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM\n\nQUY ĐỊNH\n\nVề học bổng khuyến khích học tập cho sinh viên đại học\n\nTrường Đại học Luật Thành phố Hồ Chí Minh\n\n(Ban hành kèm theo Quyết định 46/QĐ-ĐHL ngày 09/01/2019 của Hiệu trưởng Trường\nđại học Luật Thành phố Hồ Chí Minh)\n\n  Căn cứ Quyết định số 521/QĐ-TTg ngày 18/04/2017 của Thủ tướng Chính phủ về việc\nphê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Luật TP. Hồ Chí\nMinh;"
+      ],
+      "reference": "Sinh viên phải có kết quả học tập và rèn luyện từ loại khá trở lên, và không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét cấp học bổng.",
+      "expected_context": "Học sinh, sinh viên đang học trong các cơ sở giáo dục nghề nghiệp, cơ sở giáo dục đại học có kết quả học tập, rèn luyện từ loại khá trở lên, không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét cấp học bổng.",
+      "expected_doc_id": "nghi-dinh-84-2020-nd-cp",
+      "retrieved_sources": [
+        "nghi-dinh-84-2020-nd-cp-hoc-bong.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "hcmulaw-quy-dinh-hbkkht.md"
+      ],
+      "retrieval_method": "dense",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.4777777777618519,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q01",
+      "config": "B_hybrid_rrf",
+      "question": "Học bổng President's Excellence của VinUni chi trả những gì?",
+      "answer": "Học bổng President’s Excellence của VinUni chi trả 100% học phí và chi phí sinh hoạt [Document 2].",
+      "contexts": [
+        "3. **Vinschool-VinUni Scholarship:** Covers a 5% tuition waiver for Vinschool graduates who are admitted to VinUniversity.\n  4. **Vingroup Family Scholarship:** Available for children of Vingroup employees and executives, as part of the Group’s commitment to fostering talent within its community.",
+        "### **Merit-based Scholarships**\nAwarded to applicants with outstanding academic performance and strong personal qualities — those who demonstrate aspiration and ambition, creative thinking, and a proactive, resilient spirit who never give up on their dreams. The scholarship value ranges from 50% to 100% of tuition fees.\n  1. **President’s Excellence Scholarship** : Full-ride scholarship (Covers 100% of tuition and living expenses).\n  2. **Provost’s Merit Scholarship** : Covers 100% of tuition.",
+        "học chính quy của Trường) không bao gồm các môn học Giáo dục Thể chất, ngoại ngữ bổ\ntúc, các học phần trả nợ, cải thiện, các môn có điểm M.\n2. Số tín chỉ dùng để làm căn cứ số tín chỉ tối thiểu để xét học bổng (gọi tắt là STC)",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "2. **Future Leader Grant:** For those outstanding students who are offered 80 – 90% scholarship but the remaining 10% – 20% of tuition remains an obstacle, this grant removes this last barrier, opening the door for deserving young people to study at VinUniversity. To learn more about this grant, please visit [**[HERE]**.](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/current-students/)"
+      ],
+      "reference": "Đây là học bổng toàn phần (full-ride), chi trả 100% học phí và cả chi phí sinh hoạt.",
+      "expected_context": "President's Excellence Scholarship: Full-ride scholarship (Covers 100% of tuition and living expenses).",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "undergraduate-scholarships.md",
+        "undergraduate-scholarships.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "ueh-learning-support-scholarship.md",
+        "undergraduate-scholarships.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7363599114096028,
+      "context_precision": 0.49999999995,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q02",
+      "config": "B_hybrid_rrf",
+      "question": "Sinh viên VinUni cần GPA tối thiểu bao nhiêu để duy trì học bổng 100%?",
+      "answer": "Không tìm thấy thông tin về yêu cầu GPA tối thiểu để duy trì học bổng 100% cho sinh viên VinUni trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "Please find Vietnamese version via this link: [GDL-SAM-004-V2.1_Tiêu chí duy trì Học bổng đầu vào và Hỗ trợ tài chính](https://policy.vinuni.edu.vn/wp-content/uploads/2025/09/GDL-SAM-004-V2.1_Tieu-chi-duy-tri-Hoc-bong-dau-vao-va-Ho-tro-tai-chinh_4.9.2025.pdf)\n## **1. Purpose**\nThis document outlines the criteria required for students to maintain their merit-based scholarships and financial aid support throughout their academic tenure.\n##  **2. Scope**[Top of page](javascript:void\\(0\\);)",
+        "học chính quy của Trường) không bao gồm các môn học Giáo dục Thể chất, ngoại ngữ bổ\ntúc, các học phần trả nợ, cải thiện, các môn có điểm M.\n2. Số tín chỉ dùng để làm căn cứ số tín chỉ tối thiểu để xét học bổng (gọi tắt là STC)"
+      ],
+      "reference": "Cần duy trì GPA tích lũy từ 3.2 trở lên trong năm học được đánh giá, tính trung bình hai học kỳ chính Fall và Spring, đồng thời không vi phạm kỷ luật mức Tier 3 hoặc Tier 4.",
+      "expected_context": "Renewal is contingent upon: Maintaining a cumulative GPA of 3.2 or higher in the academic year under evaluation (calculated as the average of the two main semesters: Fall and Spring).",
+      "expected_doc_id": "scholarship-renewal-policy",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "scholarship-renewal-policy.md",
+        "uit-548-qd-quy-dinh-hbkkht.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q03",
+      "config": "B_hybrid_rrf",
+      "question": "VinUni hỗ trợ học phí bao nhiêu phần trăm cho sinh viên nhập học giai đoạn 2025-2030?",
+      "answer": "Không tìm thấy thông tin về VinUni hỗ trợ học phí bao nhiêu phần trăm cho sinh viên nhập học giai đoạn 2025-2030 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**",
+        "# HỌC BỔNG – Ban Chăm sóc người học\n\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_\n\n\n#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "05/12/2025 \n### Bài viết liên quan\n##### [Điều chỉnh đối tượng xét học bổng Data Nest năm học 2026-2027](https://uet.edu.vn/dieu-chinh-doi-tuong-xet-hoc-bong-data-nest-nam-hoc-2026-2027/)\n14/09/2026 \n##### [Học bổng EVN, năm học 2025-2026](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)\n14/09/2026 \n##### [Chương trình Học bổng Tài năng Pegatron 2027](https://uet.edu.vn/chuong-trinh-hoc-bong-tai-nang-pegatron-2027/)\n14/09/2026",
+        "#### Người học bổ sung minh chứng về hoàn cảnh khó khăn đột xuất của mình để được sự hỗ trợ từ UEH (Ví dụ: trường hợp sinh viên bị tai nạn, có thể cung cấp minh chứng bệnh án) qua email của Phòng Chăm sóc và hỗ trợ người học (DSA): dsa@ueh.edu.vn\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_",
+        "## Prospective Undergraduates\n_To further support the mission of nurturing talent, Vingroup, the Founder of VinUniversity, has reaffirmed its unwavering commitment to sustaining the University’s Scholarship Fund for future generations of VinUniversity students._\n### **Tuition Subsidy**\nFrom 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.\n### **Merit-based Scholarships**"
+      ],
+      "reference": "Tất cả sinh viên nhập học VinUni từ 2025 đến 2030 được hỗ trợ 35% học phí, áp dụng trong suốt thời gian học.",
+      "expected_context": "From 2025 to 2030, all students enrolling at VinUniversity will be granted a 35% tuition subsidy, applied for the full duration of their studies.",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "ueh-faculty-support.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "undergraduate-scholarships.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.19999999998,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q04",
+      "config": "B_hybrid_rrf",
+      "question": "Học bổng Dean's Distinction của VinUni chi trả bao nhiêu phần trăm học phí?",
+      "answer": "Học bổng Dean’s Distinction Scholarship của VinUniversity chi trả 80% hoặc 90% học phí [Document 1].",
+      "contexts": [
+        "3. **Dean’s Distinction Scholarship** : Covers 80% or 90% of tuition.\n  4. **Discipline’s Honor Scholarship** : Covers 50%, 60%, or 70% of tuition.",
+        "2. **Future Leader Grant:** For those outstanding students who are offered 80 – 90% scholarship but the remaining 10% – 20% of tuition remains an obstacle, this grant removes this last barrier, opening the door for deserving young people to study at VinUniversity. To learn more about this grant, please visit [**[HERE]**.](https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/current-students/)",
+        "Trong đó:\n\n- Điểm học tập là điểm trung bình chung của tất cả điểm học phần sinh viên đăng ký học\nthuộc  chương  trình  đào  tạo  thứ  nhất  trong  học  kỳ  xét  học  bổng  (bao  gồm  cả  học  phần  tự\nchọn, trả nợ, cải thiện). Được tính theo công thức quy định trong quy chế đào tạo đại học hệ\nchính quy theo hệ thống tín chỉ của trường.\n\n- Điểm rèn luyện là kết quả đánh giá điểm rèn luyện sinh viên được tính điểm theo Quy\n\nchế đánh giá kết quả rèn luyện sinh viên đại học chính quy của trường.",
+        "học chính quy của Trường) không bao gồm các môn học Giáo dục Thể chất, ngoại ngữ bổ\ntúc, các học phần trả nợ, cải thiện, các môn có điểm M.\n2. Số tín chỉ dùng để làm căn cứ số tín chỉ tối thiểu để xét học bổng (gọi tắt là STC)",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_"
+      ],
+      "reference": "Học bổng Dean's Distinction chi trả 80% hoặc 90% học phí.",
+      "expected_context": "Dean's Distinction Scholarship: Covers 80% or 90% of tuition.",
+      "expected_doc_id": "undergraduate-scholarships",
+      "retrieved_sources": [
+        "undergraduate-scholarships.md",
+        "undergraduate-scholarships.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8776313196495035,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q05",
+      "config": "B_hybrid_rrf",
+      "question": "Ở UET, học bổng loại Giỏi cho sinh viên chương trình chuẩn khóa QH-2021 là bao nhiêu mỗi tháng?",
+      "answer": "Học bổng loại Giỏi cho sinh viên chương trình chuẩn khóa QH-2021 là 1.950.000đ mỗi tháng [Document 3].",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "| Chuẩn, khóa QH-2021  | 2.050.000đ  | 1.950.000đ  | 1.850.000đ  |  \n| Chuẩn, khóa QH-2022 (ngành CNNN)  | 2.200.000đ  | 2.100.000đ  | 2.000.000đ  |  \n| Chuẩn, khóa QH-2022 (ngành CNKTXD, ngành CNHKVT)  | 2.700.000đ  | 2.600.000đ  | 2.500.000đ  |  \n| Chuẩn, khóa QH-2022 (các ngành còn lại)  | 3.200.000đ  | 3.100.000đ  | 3.000.000đ  |  \n| Chuẩn, khóa QH-2023, 2024, 2025  | 3.600.000đ  | 3.500.000đ  | 3.400.000đ  |  \n| CLC CNTT, khóa QH-2022  | 4.100.000đ  | 4.000.000đ  | 3.900.000đ  |",
+        "K = C\nG = C x 110%\nXS = C x 120%\nLưu ý: C là mức học bổng chuẩn do Hội đồng xét học bổng KKHT cho sinh viên\nquy định theo năm học.\nĐiều 4. Nguyên tắc phân bổ học bổng:\n1. Học bổng được phân bổ theo Lớp sinh viên (nếu khóa, ngành và chương trình có\nnhiều lớp sinh viên thì tất cả các lớp này được xét chung) gọi chung là Lớp.\n2. Các SV thỏa các điều kiện tại điều 1,2,3 được xếp thứ tự ưu tiên từ Học bổng loại\nXuất sắc, Giỏi, Khá theo Điều 3. Trong mỗi loại học bổng, danh sách SV được xếp thứ tự",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Mức học bổng loại Giỏi cho chương trình chuẩn khóa QH-2021 là 1.950.000đ mỗi sinh viên mỗi tháng.",
+      "expected_context": "Chuẩn, khóa QH-2021: Loại Xuất sắc 2.050.000đ, Loại Giỏi 1.950.000đ, Loại Khá 1.850.000đ.",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6578569768024237,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q06",
+      "config": "B_hybrid_rrf",
+      "question": "Sinh viên UET phải hoàn thành tối thiểu bao nhiêu tín chỉ để được xét học bổng khuyến khích học tập?",
+      "answer": "Sinh viên UET phải hoàn thành tối thiểu 15 tín chỉ để được xét học bổng khuyến khích học tập. [Document 1]",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên phải hoàn thành ít nhất 15 tín chỉ; trường hợp ít hơn phải có đề xuất từ Khoa hoặc Viện.",
+      "expected_context": "Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6581149369676934,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q07",
+      "config": "B_hybrid_rrf",
+      "question": "Quỹ học bổng khuyến khích học tập của UET được trích lập từ nguồn nào?",
+      "answer": "Quỹ học bổng khuyến khích học tập của UET được trích lập từ nguồn thu học phí [Document 1].",
+      "contexts": [
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "b) Đối với các cơ sở giáo dục nghề nghiệp, cơ sở giáo dục đại học: Học bổng khuyến\nkhích học tập được bố trí tối thiểu 8% nguồn thu học phí đối với trường công lập và\ntối thiểu 2% nguồn thu học phí đối với trường tư thục.\n\n5. Trình tự xét, cấp học bổng đối với đối tượng quy định tại điểm a và điểm b\nkhoản 1 Điều này:",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "4. Nguồn học bổng:\n\na) Đối với trường chuyên, trường năng khiếu nghệ thuật, thể dục, thể thao: Học bổng\nkhuyến khích học tập được bố trí trong dự toán chi ngân sách địa phương để cấp cho\ntối  thiểu 30% số  học  sinh  chuyên  của trường.  Đối với  khối trung học phổ thông\n\n\fchuyên trong cơ sở giáo dục đại học, học bổng khuyến khích học tập được bố trí từ\nnguồn thu hợp pháp của cơ sở giáo dục đại học và từ nguồn thu hợp pháp của trường\ntrung học phổ thông chuyên;"
+      ],
+      "reference": "Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học và khóa học.",
+      "expected_context": "Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học.",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "nghi-dinh-84-2020-nd-cp-hoc-bong.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "nghi-dinh-84-2020-nd-cp-hoc-bong.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6234546939810754,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q08",
+      "config": "B_hybrid_rrf",
+      "question": "Sinh viên chương trình CNTT chất lượng cao của UET cần đạt kết quả gì để được xét học bổng?",
+      "answer": "Không tìm thấy thông tin về yêu cầu xét học bổng cho sinh viên chương trình CNTT chất lượng cao của UET trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó.",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "- Mức học bổng loại giỏi: bằng 100% học phí chương trình đào tạo, áp dụng cho sinh viên\n\ncó kết quả học tập loại giỏi trở lên và kết quả rèn luyện đạt loại tốt trở lên;\n\n- Mức học bổng loại khá: bằng 50% học phí chương trình đào tạo, áp dụng cho sinh viên\n\ncó kết quả học tập đạt từ loại khá trở lên và có kết quả rèn luyện đạt loại khá trở lên.\n\nĐiều 6. Nguyên tắc xét, cấp học bổng\n\n- Việc xét cấp học bổng theo thứ tự xếp loại từ trên đến hết số suất học bổng đã được xác",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Trị giá: Bằng 50% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.\n## **2. Căn cứ để xét học bổng**\n  * #### Căn cứ để xét học bổng là kết quả học tập (điểm trung bình tích lũy) và kết quả rèn luyện (điểm rèn luyện) của học kỳ trước đó."
+      ],
+      "reference": "Sinh viên chương trình CNTT chất lượng cao cần đạt kết quả học tập loại Giỏi trở lên và rèn luyện loại Tốt trở lên, cao hơn mức Khá áp dụng cho chương trình chuẩn.",
+      "expected_context": "Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu kết quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+      "expected_doc_id": "uet-merit-scholarship-2025-2026",
+      "retrieved_sources": [
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.6388888888675925,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q09",
+      "config": "B_hybrid_rrf",
+      "question": "Học bổng Cử nhân Kinh doanh của RMIT Việt Nam trị giá bao nhiêu và yêu cầu GPA lớp 12 thế nào?",
+      "answer": "Không tìm thấy thông tin về học bổng Cử nhân Kinh doanh của RMIT Việt Nam, bao gồm trị giá và yêu cầu GPA lớp 12 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "## Selection criteria\n  * Applicants are assessed and ranked by cumulative GPA and credit points of RMIT Vietnam Higher Education study following the eligibility criteria.\n  * Where applicants have the same cumulative GPA, preference will be given to the applicant with the higher credit points. Where applicants have the same GPA and credit points earned, their academic performance of the latest semester will be considered.",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Hoàn cảnh khó khăn\n#### + Kết quả học tập\n#### + Kết quả rèn luyện\n> # HỌC BỔNG DOANH NGHIỆP\n  * #### Học bổng doanh nghiệp: là học bổng được các cá nhân, đơn vị/tổ chức ngoài UEH (đơn vị tài trợ) cấp cho sinh viên bằng nhiều hình thức được UEH liên kết, tiếp nhận và triển khai trong năm.\n  * #### Thời gian triển khai, đối tượng xét học bổng, số suất và trị giá học bổng sẽ do đơn vị tài trợ quy định và triển khai xuyên suốt trong năm.",
+        "# Trường Kinh doanh\n[Trường Kinh doanh](https://ueh.edu.vn/college/cob/vi) / Tin tức - Sự kiện\n## UEH ban hành chính sách đãi ngộ đột phá: Chiêu mộ & giữ chân nhân tài, kiến tạo vị thế quốc tế\nĐại học Kinh tế Thành phố Hồ Chí Minh (UEH) chính thức công bố chính sách toàn diện nhằm thu hút và giữ chân đội ngũ nhà giáo có học hàm, học vị cao, bao gồm Giáo sư (GS), Phó Giáo sư (PGS) và Tiến sĩ (TS), với mức hỗ trợ lên đến 500 triệu đồng/người."
+      ],
+      "reference": "Học bổng trị giá 50% học phí toàn khóa, yêu cầu thí sinh là công dân Việt Nam và có điểm trung bình lớp 12 tối thiểu 8.5/10.0.",
+      "expected_context": "Value 50% of the program tuition fees. To be eligible: Be a citizen of Vietnam; Have completed high school with a minimum grade 12 GPA of 8.5/10.0.",
+      "expected_doc_id": "rmit-business-scholarship-2026",
+      "retrieved_sources": [
+        "rmit-current-student-scholarship-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-faculty-support.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q10",
+      "config": "B_hybrid_rrf",
+      "question": "Hạn nộp hồ sơ học bổng Cử nhân Kinh doanh RMIT 2026 là khi nào?",
+      "answer": "Hạn nộp hồ sơ học bổng Cử nhân Kinh doanh RMIT 2026 là ngày 3 tháng 7 năm 2026, trước 5:00pm GMT +7 [Document 5].",
+      "contexts": [
+        "*   *   *   *   * \n\n## Academic Achievement Scholarship for Current Students\n[Home](https://www.rmit.edu.vn/)[Study at RMIT](https://www.rmit.edu.vn/study-at-rmit)[Scholarships](https://www.rmit.edu.vn/study-at-rmit/scholarships)[Academic Achievement Scholarship for Current Students](https://www.rmit.edu.vn/study-at-rmit/scholarships/current-student-scholarships) \n\nApplications Open\n    \n22 Dec 2025\n20 Feb 2026\n19 Jun 2026 \n\nApplications Close\n    \n19 Jan 2026\n15 May 2026\n27 Jul 2026",
+        "# Trường Kinh doanh\n[Trường Kinh doanh](https://ueh.edu.vn/college/cob/vi) / Tin tức - Sự kiện\n## UEH ban hành chính sách đãi ngộ đột phá: Chiêu mộ & giữ chân nhân tài, kiến tạo vị thế quốc tế\nĐại học Kinh tế Thành phố Hồ Chí Minh (UEH) chính thức công bố chính sách toàn diện nhằm thu hút và giữ chân đội ngũ nhà giáo có học hàm, học vị cao, bao gồm Giáo sư (GS), Phó Giáo sư (PGS) và Tiến sĩ (TS), với mức hỗ trợ lên đến 500 triệu đồng/người.",
+        "Ngày 20/9/2026, Đại học Kinh tế Thành phố Hồ Chí Minh (UEH) tổ chức Hội nghị Kết nối đối tác khu vực công năm 2026 với chủ đề \"Embracing Local Impact\"",
+        "Outcome release\n    \n25 September 2026\n## Overview\nThe scholarship is available exclusively to new students who have achieved outstanding academic performance in high school and will be enrolling in the [Bachelor of Business program ](https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/bachelor-business)at RMIT Vietnam.   \n| Campus  | Number of scholarships and value  |  \n| --- | --- |  \n| Saigon South campus  | 01 x 50% of the respective Bachelor’s degree program  |",
+        "## Key dates\n  * Applications close: 3 July 2026, 5:00pm GMT +7\n  * Release of outcome: by 25 September 2026\n\n\n### Contact us\nIf you have questions about your scholarship application, or the outcome, please contact the Scholarship Office via scholarships@rmit.edu.vn. \n#### Download documents\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  * Copyright © 2026 RMIT University \n  * ABN 49 781 030 034 \n  * CRICOS provider number: 00122A \n  * RTO Code: 3046"
+      ],
+      "reference": "Hồ sơ mở từ ngày 12/01/2026 và đóng ngày 03/07/2026; kết quả công bố ngày 25/09/2026.",
+      "expected_context": "Applications Open 12 January 2026. Applications close 3 July 2026. Outcome release 25 September 2026.",
+      "expected_doc_id": "rmit-business-scholarship-2026",
+      "retrieved_sources": [
+        "rmit-current-student-scholarship-2026.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "rmit-business-scholarship-2026.md",
+        "rmit-business-scholarship-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7080272055346661,
+      "context_precision": 0.19999999998,
+      "context_recall": 0.5
+    },
+    {
+      "id": "Q11",
+      "config": "B_hybrid_rrf",
+      "question": "Sinh viên RMIT Việt Nam đang học cần bao nhiêu tín chỉ và GPA để xin học bổng thành tích 2026?",
+      "answer": "Không tìm thấy thông tin về yêu cầu tín chỉ và GPA để xin học bổng thành tích 2026 cho sinh viên RMIT Việt Nam trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "là tổng số tín chỉ dùng để tính ĐHT và có tính thêm số tín chỉ của các môn ngoại ngữ được\nmiễn; không tính các môn có điểm I. Sinh viên phải có STC tối thiểu là 14 tín chỉ.\n3. KHÔNG cấp HB KKHT đối với sinh viên thuộc một trong các trường hợp sau:\na.  Có học phần đạt điểm dưới 5.0 trong học kỳ tính.\nb.  Học quá thời gian thiết kế của chương trình đào tạo (tính cả thời gian SV xin\nbảo lưu, tạm hoãn).\nc.  Đăng ký học ít hơn 8 tín chỉ (không tính số tín chỉ ngoại ngữ, giáo dục thể chất)",
+        "học chính quy của Trường) không bao gồm các môn học Giáo dục Thể chất, ngoại ngữ bổ\ntúc, các học phần trả nợ, cải thiện, các môn có điểm M.\n2. Số tín chỉ dùng để làm căn cứ số tín chỉ tối thiểu để xét học bổng (gọi tắt là STC)",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Sinh viên phải đang học chương trình cử nhân, đã hoàn thành ít nhất 96 tín chỉ và đạt GPA tích lũy từ 3.4 trở lên trên thang 4.0.",
+      "expected_context": "Have completed at least 96 credit points. Have achieved a cumulative GPA of 3.4 (on a 4.0 scale) or above.",
+      "expected_doc_id": "rmit-current-student-scholarship-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.49999999995,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q12",
+      "config": "B_hybrid_rrf",
+      "question": "RMIT Việt Nam cấp bao nhiêu suất học bổng thành tích cho sinh viên đang học trong năm 2026?",
+      "answer": "Không tìm thấy thông tin về số suất học bổng thành tích mà RMIT Việt Nam cấp cho sinh viên đang học trong năm 2026 trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "Ngày 10/9/2026, Trường Đại học Công nghệ nhận được công văn của Đại học Quốc gia Hà Nội, thông báo về chương trình học bổng của Tập đoàn Điện lực Việt Nam (gọi tắt là học bổng EVN) năm học … \n[ Xem thêm ](https://uet.edu.vn/hoc-bong-evn-nam-hoc-2025-2026/)\nCăn cứ Công văn số PVN-26830 ngày 25 tháng 8 năm 2026 của Công ty TNHH Pegatron Việt Nam về việc tuyển chọn Chương trình “Học bổng Tài năng Pegatron 2027”, Đại học Quốc gia Hà Nội (ĐHQGHN) đã có công …",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên)."
+      ],
+      "reference": "Năm 2026 có 21 suất, gồm 9 suất trị giá 50% và 12 suất trị giá 25% học phí các môn còn lại.",
+      "expected_context": "In 2026, 21 scholarships are on offer. Number of scholarships: 9 x 50%, 12 x 25%.",
+      "expected_doc_id": "rmit-current-student-scholarship-2026",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q13",
+      "config": "B_hybrid_rrf",
+      "question": "Học bổng hỗ trợ học tập toàn phần của UEH trị giá bao nhiêu?",
+      "answer": "Không tìm thấy thông tin về trị giá cụ thể của học bổng hỗ trợ học tập toàn phần của UEH trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "#### Người học bổ sung minh chứng về hoàn cảnh khó khăn đột xuất của mình để được sự hỗ trợ từ UEH (Ví dụ: trường hợp sinh viên bị tai nạn, có thể cung cấp minh chứng bệnh án) qua email của Phòng Chăm sóc và hỗ trợ người học (DSA): dsa@ueh.edu.vn\n> # **HỌC BỔNG HỖ TRỢ HỌC TẬP**\n## **1. Trị giá học bổng**\n  * #### _**Học bổng toàn phần:**_",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "> # HỌC BỔNG HỖ TRỢ ĐỘT XUẤT\n  * #### **MỤC TIÊU:** Hỗ trợ sinh viên có hoàn cảnh khó khăn đột xuất cần sự hỗ trợ từ UEH để hoàn thành việc học trong thời gian khó khăn.\n  * #### **ĐỐI TƯỢNG:** Người học các bậc hệ tại UEH và đang trong quá trình học tại UEH (không bảo lưu) Hướng dẫn đăng ký",
+        "> # HỌC BỔNG HỖ TRỢ ĐỘT XUẤT\n  * #### **MỤC TIÊU:** Hỗ trợ sinh viên có hoàn cảnh khó khăn đột xuất cần sự hỗ trợ từ UEH để hoàn thành việc học trong thời gian khó khăn.\n  * #### **ĐỐI TƯỢNG:** Người học các bậc hệ tại UEH và đang trong quá trình học tại UEH (không bảo lưu) Hướng dẫn đăng ký",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:"
+      ],
+      "reference": "Bằng 100% mức học phí trung bình của 15 tín chỉ, tương đương một học kỳ của từng khóa xét học bổng.",
+      "expected_context": "Học bổng toàn phần: Trị giá bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q14",
+      "config": "B_hybrid_rrf",
+      "question": "Điều kiện rèn luyện để nhận học bổng bán phần của UEH khác gì so với toàn phần?",
+      "answer": "Không tìm thấy thông tin cụ thể về điều kiện rèn luyện để nhận học bổng bán phần của UEH so với toàn phần trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "quy định hiện hành của Nhà nước nếu đạt kết quả học tập, rèn luyện đủ điều kiện được xét,\ncấp học bổng tại quy định này thì vẫn được xét, cấp HB KKHT như những SV khác.\n4. SV chưa nhận bất kỳ học bổng nào tương đương với 01 suất HB KKHT.\nĐiều 2. Các quy định chung:\n1. Điểm học tập dùng để xét HB KKHT (gọi tắt là ĐHT) là điểm trung bình học\nkỳ được xét học bổng (được quy định tại Quy chế đào tạo theo học chế tín chỉ cho hệ đại",
+        "## **3. Điều kiện tham gia học bổng**\n  * #### Sinh viên thuộc diện mồ côi, hộ nghèo, hộ cận nghèo hoặc có hoàn cảnh gia đình khó khăn;\n\n\n  * #### Có kết quả học tập đạt từ Trung bình khá trở lên và kết quả rèn luyện từ loại Khá trở lên;\n\n\n  * #### Đối với tất cả học phần đăng ký trong học kỳ trước đó đạt từ 5.0 điểm trở lên;\n\n\n  * #### Không bị kỷ luật từ mức khiển trách trở lên trong học kỳ xét;",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:"
+      ],
+      "reference": "Học bổng bán phần trị giá 50% học phí và yêu cầu rèn luyện từ loại Khá trở lên, trong khi toàn phần trị giá 100% và yêu cầu rèn luyện từ loại Tốt trở lên.",
+      "expected_context": "Học bổng bán phần: Trị giá bằng 50% mức học phí trung bình của 15 tín chỉ; cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Khá trở lên.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-learning-support-scholarship.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.6388888888675925,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q15",
+      "config": "B_hybrid_rrf",
+      "question": "UEH xét học bổng hỗ trợ học tập vào thời gian nào trong năm?",
+      "answer": "UEH xét học bổng hỗ trợ học tập vào hai thời gian trong năm: Học kỳ đầu từ tháng 4 đến tháng 5 và Học kỳ cuối từ tháng 10 đến tháng 11 [Document 4].",
+      "contexts": [
+        "> # HỌC BỔNG HỖ TRỢ ĐỘT XUẤT\n  * #### **MỤC TIÊU:** Hỗ trợ sinh viên có hoàn cảnh khó khăn đột xuất cần sự hỗ trợ từ UEH để hoàn thành việc học trong thời gian khó khăn.\n  * #### **ĐỐI TƯỢNG:** Người học các bậc hệ tại UEH và đang trong quá trình học tại UEH (không bảo lưu) Hướng dẫn đăng ký",
+        "> # HỌC BỔNG HỖ TRỢ ĐỘT XUẤT\n  * #### **MỤC TIÊU:** Hỗ trợ sinh viên có hoàn cảnh khó khăn đột xuất cần sự hỗ trợ từ UEH để hoàn thành việc học trong thời gian khó khăn.\n  * #### **ĐỐI TƯỢNG:** Người học các bậc hệ tại UEH và đang trong quá trình học tại UEH (không bảo lưu) Hướng dẫn đăng ký",
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:",
+        "* #### Chưa nhận bất kỳ học bổng nào có giá trị tương đương từ 01 (một) suất học bổng toàn phần trở lên trong học kỳ xét.\n\n\n## **4. Thời gian xét học bổng**\n  * #### Học kỳ đầu: Tháng 4 – tháng 5\n  * #### Học kỳ cuối: Tháng 10 – tháng 11\n\n\n## **5. Nguyên tắc xét**\n  * #### Sinh viên nộp đơn đề nghị xét học bổng\n  * #### UEH xét, cấp học bổng căn cứ:"
+      ],
+      "reference": "Học kỳ đầu xét vào tháng 4 đến tháng 5, học kỳ cuối xét vào tháng 10 đến tháng 11.",
+      "expected_context": "Thời gian xét học bổng: Học kỳ đầu: Tháng 4 - tháng 5. Học kỳ cuối: Tháng 10 - tháng 11.",
+      "expected_doc_id": "ueh-learning-support-scholarship",
+      "retrieved_sources": [
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-faculty-support.md",
+        "ueh-learning-support-scholarship.md",
+        "ueh-learning-support-scholarship.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5630344496913419,
+      "context_precision": 0.32499999998375,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q16",
+      "config": "B_hybrid_rrf",
+      "question": "UEH hỗ trợ bao nhiêu tiền để thu hút giảng viên có học hàm Giáo sư?",
+      "answer": "UEH hỗ trợ 500 triệu đồng để thu hút giảng viên có học hàm Giáo sư [Document 1].",
+      "contexts": [
+        "**Hỗ trợ đến 500 triệu đồng để thu hút nhân tài**\nTheo đó, các nhà giáo, học giả có **học hàm, học vị cao (GS, PGS, TS) ứng tuyển và trở thành giảng viên, viên chức UEH** sẽ nhận được mức hỗ trợ cụ thể:\n  * Giáo sư (GS): 500 triệu đồng/người\n  * Phó Giáo sư (PGS): 300 triệu đồng/người\n  * Tiến sĩ (TS): 150 triệu đồng/người",
+        "3. VnExpress: [Lương giáo sư ĐH Kinh tế TP HCM cao nhất 120 triệu đồng](https://vnexpress.net/luong-giao-su-dh-kinh-te-tp-hcm-cao-nhat-120-trieu-dong-5054335.html)\n4. Cafe F: [1 trường ĐH trả lương Giáo sư, Phó Giáo sư 52-120 triệu đồng/tháng, hỗ trợ tới 500 triệu đồng/người để thu hút nhân tài](https://cafef.vn/1-truong-dh-tra-luong-giao-su-pho-giao-su-52-120-trieu-dong-thang-ho-tro-toi-500-trieu-dong-nguoi-de-thu-hut-nhan-tai-188260324204514496.chn)",
+        "5. Báo Người Lao Động: [ĐH Kinh tế TPHCM hỗ trợ đến 500 triệu đồng/người để thu hút nhân tài](https://nld.com.vn/dh-kinh-te-tphcm-ho-tro-den-500-trieu-dong-nguoi-de-thu-hut-nhan-tai-196260324151507138.htm)\n6. Báo Giáo dục & Thời đại: [Lương giáo sư ĐH Kinh tế TP HCM cao nhất 120 triệu đồng](https://giaoducthudo.giaoducthoidai.vn/luong-giao-su-dh-kinh-te-tp-hcm-cao-nhat-120-trieu-dong-208043.html)",
+        "10. Báo Phụ nữ TP.HCM: [Đại học Kinh tế TPHCM tuyển giáo sư với mức hỗ trợ 500 triệu đồng/người](https://www.phunuonline.com.vn/dai-hoc-kinh-te-tphcm-tuyen-giao-su-voi-muc-ho-tro-500-trieu-dong-nguoi-a1578194.html)\n11. Báo Việt Nam Net: [Một đại học chi 'lót tay' nửa tỷ thu hút giáo sư, trả lương tới 120 triệu đồng/tháng](https://vietnamnet.vn/mot-dai-hoc-chi-lot-tay-nua-ty-thu-hut-giao-su-tra-luong-toi-120-trieu-thang-2500089.html)",
+        "Mức hỗ trợ được điều chỉnh theo thời gian công tác còn lại trước tuổi nghỉ hưu; phần chênh lệch giữa chính sách thu hút mới và cũ; nhân sự cơ hữu và hợp đồng. \nĐặc biệt, nhà trường chú trọng thu hút nhân tài cho các cơ sở tại địa phương tại UEH Mekong (Phân hiệu UEH tại Vĩnh Long) và UEH Nexus với mức hỗ trợ bằng hoặc cao hơn, có điều chỉnh theo một số trường hợp cụ thể. \n**Thưởng đến 150 triệu đồng cho giảng viên, viên chức cơ hữu chủ động nâng cấp học hàm, học vị cao**"
+      ],
+      "reference": "Giáo sư được hỗ trợ 500 triệu đồng/người, Phó Giáo sư 300 triệu đồng/người và Tiến sĩ 150 triệu đồng/người.",
+      "expected_context": "Giáo sư (GS): 500 triệu đồng/người; Phó Giáo sư (PGS): 300 triệu đồng/người; Tiến sĩ (TS): 150 triệu đồng/người.",
+      "expected_doc_id": "ueh-faculty-support",
+      "retrieved_sources": [
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md",
+        "ueh-faculty-support.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5310491236616371,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q17",
+      "config": "B_hybrid_rrf",
+      "question": "Quỹ học bổng khuyến khích học tập của Trường Đại học Luật TP.HCM được trích lập bao nhiêu phần trăm?",
+      "answer": "Quỹ học bổng khuyến khích học tập của Trường Đại học Luật TP.HCM được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học [Document 5].",
+      "contexts": [
+        "# Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM\n\nQUY ĐỊNH\n\nVề học bổng khuyến khích học tập cho sinh viên đại học\n\nTrường Đại học Luật Thành phố Hồ Chí Minh\n\n(Ban hành kèm theo Quyết định 46/QĐ-ĐHL ngày 09/01/2019 của Hiệu trưởng Trường\nđại học Luật Thành phố Hồ Chí Minh)\n\n  Căn cứ Quyết định số 521/QĐ-TTg ngày 18/04/2017 của Thủ tướng Chính phủ về việc\nphê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Luật TP. Hồ Chí\nMinh;",
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "_Căn cứ Quyết định số 2339/QĐ-ĐHCN, ngày 27 tháng 10 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ ban hành Quy định mức học bổng khuyến khích học tập cho sinh viên đại học hệ chính quy trong năm học 2025-2026;_\n_Căn cứ các Quyết định số 1325/QĐ-ĐHCN ngày 03 tháng 06 năm 2025 và số 2501/QĐ-ĐHCN ngày 13 tháng 11 năm 2025 của Hiệu trưởng Trường Đại học Công nghệ, về việc trích lập quỹ học bổng KKHT cho sinh viên từ nguồn thu học phí;_",
+        "Điều 1. Đối tượng áp dụng\n\nQuy định này áp dụng đối với sinh viên đại học hệ chính quy văn bằng 1 của Trường Đại\n\nhọc Luật Thành phố Hồ Chí Minh, còn trong thời gian đào tạo theo kế hoạch của khóa học.\n\nĐiều 2. Quỹ học bổng\n\nQuỹ học bổng khuyến khích học tập được trích lập bằng 8% nguồn thu học phí của khóa,\n\nngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.\n\nVào đầu năm học, căn cứ vào số lượng sinh viên, học phí đào tạo, Hiệu trưởng sẽ quyết"
+      ],
+      "reference": "Quỹ được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.",
+      "expected_context": "Quỹ học bổng khuyến khích học tập được trích lập bằng 8% nguồn thu học phí của khóa, ngành, chương trình đào tạo đại học hệ chính quy theo từng năm học.",
+      "expected_doc_id": "hcmulaw-quy-dinh-hbkkht",
+      "retrieved_sources": [
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "hcmulaw-quy-dinh-hbkkht.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.523769322349061,
+      "context_precision": 0.699999999965,
+      "context_recall": 1.0
+    },
+    {
+      "id": "Q18",
+      "config": "B_hybrid_rrf",
+      "question": "Mức học bổng loại xuất sắc của Trường Đại học Luật TP.HCM bằng bao nhiêu phần trăm học phí?",
+      "answer": "Không tìm thấy thông tin về mức học bổng loại xuất sắc của Trường Đại học Luật TP.HCM trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "#### + Trị giá: Bằng 100% mức học phí trung bình của 15 tín chỉ (được tính tương đương với 1 học kỳ) của từng khóa xét học bổng tương ứng;\n#### + Cấp cho sinh viên có hoàn cảnh khó khăn và có kết quả học tập từ Khá trở lên, kết quả rèn luyện đạt từ loại Tốt trở lên.\n  * #### _**Học bổng bán phần:**_",
+        "# Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM\n\nQUY ĐỊNH\n\nVề học bổng khuyến khích học tập cho sinh viên đại học\n\nTrường Đại học Luật Thành phố Hồ Chí Minh\n\n(Ban hành kèm theo Quyết định 46/QĐ-ĐHL ngày 09/01/2019 của Hiệu trưởng Trường\nđại học Luật Thành phố Hồ Chí Minh)\n\n  Căn cứ Quyết định số 521/QĐ-TTg ngày 18/04/2017 của Thủ tướng Chính phủ về việc\nphê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Luật TP. Hồ Chí\nMinh;",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |"
+      ],
+      "reference": "Học bổng loại xuất sắc bằng 150% học phí chương trình đào tạo; loại giỏi bằng 100% học phí.",
+      "expected_context": "Mức học bổng loại xuất sắc: bằng 150% học phí chương trình đào tạo. Mức học bổng loại giỏi: bằng 100% học phí chương trình đào tạo.",
+      "expected_doc_id": "hcmulaw-quy-dinh-hbkkht",
+      "retrieved_sources": [
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "ueh-learning-support-scholarship.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 0.5
+    },
+    {
+      "id": "Q19",
+      "config": "B_hybrid_rrf",
+      "question": "Trường Đại học Công nghệ Thông tin yêu cầu tối thiểu bao nhiêu tín chỉ để xét học bổng khuyến khích học tập?",
+      "answer": "Không tìm thấy thông tin về yêu cầu tín chỉ để xét học bổng khuyến khích học tập của Trường Đại học Công nghệ Thông tin trong các tài liệu đã cung cấp.",
+      "contexts": [
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "2. Sinh viên hoàn thành ít nhất 15 tín chỉ (trường hợp ít hơn phải có đề xuất từ Khoa/Viện).\n3. Số sinh viên được nhận học bổng dựa trên 8% nguồn thực thu học phí, theo chương trình học, ngành học, khóa học,trong học kỳ II và học kỳ phụ năm học 2024-2025.\n**Điều 2.** Học bổng khuyến khích học tập được cấp theo định mức:  \n| **Chương trình đào tạo**  | **Mức học bổng/sinh viên/tháng**  |  \n| --- | --- |  \n| **Loại Xuất sắc**  | **Loại Giỏi**  | **Loại Khá**  |",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên).",
+        "**TRƯỜNG ĐẠI HỌC CÔNG NGHỆ QUYẾT ĐỊNH:**\n**Điều 1.** Cấp học bổng khuyến khích học tập trong học kỳ I năm học 2025-2026, cho các sinh viên đang trong giai đoạn đào tạo chuẩn, có tên trong các danh sách kèm theo  thỏa mãn đồng thời 3 điều kiện sau đây trong học kỳ II và học kỳ phụ năm học 2024-2025:\n1. Kết quả học tập đạt loại Khá trở lên, rèn luyện loại Khá trở lên (Đối với sinh viên thuộc CTĐT CNTT CLC yêu cầu quả học tập đạt loại Giỏi trở lên, rèn luyện loại Tốt trở lên)."
+      ],
+      "reference": "Sinh viên phải có số tín chỉ tối thiểu là 14 tín chỉ; ngoài ra không được đăng ký ít hơn 8 tín chỉ trong học kỳ hiện tại.",
+      "expected_context": "Sinh viên phải có STC tối thiểu là 14 tín chỉ. KHÔNG cấp HB KKHT đối với sinh viên đăng ký học ít hơn 8 tín chỉ trong học kỳ hiện tại.",
+      "expected_doc_id": "uit-548-qd-hbkkht",
+      "retrieved_sources": [
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md",
+        "uet-merit-scholarship-2025-2026.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "Q20",
+      "config": "B_hybrid_rrf",
+      "question": "Theo Nghị định 84/2020/NĐ-CP, sinh viên đại học cần điều kiện gì để được xét học bổng khuyến khích học tập?",
+      "answer": "Không tìm thấy thông tin cụ thể về điều kiện xét học bổng khuyến khích học tập cho sinh viên đại học trong Nghị định 84/2020/NĐ-CP từ các tài liệu đã cung cấp. [Document 1] chỉ đề cập đến việc quy định chung về học bổng khuyến khích học tập mà không nêu rõ điều kiện cụ thể.",
+      "contexts": [
+        "# Nghị định 84/2020/NĐ-CP — Chương IV: Học bổng khuyến khích học tập\n\nNghị định 84: Học bổng khuyến khích học tập dành cho học sinh, sinh viên\n\nNgày 17/07/2020, Chính phủ đã ban hành Nghị định 84/2020/NĐ-CP quy định\nchi tiết một số điều của Luật giáo dục 2019 . Nghị định này có hiệu lực từ ngày\n01/09/2020.\n\nTheo đó, Nghị định 84/2020/NĐ-CP Ngày 17/07/2020 quy định chi tiết về học bổng\nkhuyến khích học tập dành cho học sinh, sinh viên như sau:\n\nChương IV",
+        "định trong phạm vi quỹ học bổng khuyến khích học tập của trường.\n\n- Nếu sinh viên có cùng kết quả học tập thì sinh viên nào có điểm rèn luyện cao hơn sẽ\nđược ưu tiên xét chọn. Số sinh viên đạt ít hơn số suất học bổng, thì số suất còn lại sẽ cân đối\ncho các khóa, ngành, chương trình đào tạo khác theo đề nghị của Hội đồng xét học bổng.\n\n- Học bổng khuyến khích học tập được cấp theo từng học kỳ và cấp 10 tháng trong năm\n\nhọc.",
+        "# Quy định học bổng khuyến khích học tập Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)",
+        "# Quy định về học bổng khuyến khích học tập cho sinh viên đại học Trường Đại học Luật TP.HCM\n\nQUY ĐỊNH\n\nVề học bổng khuyến khích học tập cho sinh viên đại học\n\nTrường Đại học Luật Thành phố Hồ Chí Minh\n\n(Ban hành kèm theo Quyết định 46/QĐ-ĐHL ngày 09/01/2019 của Hiệu trưởng Trường\nđại học Luật Thành phố Hồ Chí Minh)\n\n  Căn cứ Quyết định số 521/QĐ-TTg ngày 18/04/2017 của Thủ tướng Chính phủ về việc\nphê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Luật TP. Hồ Chí\nMinh;",
+        "xét cấp học bổng Khuyến khích học tập (HB KKHT) cho sinh viên (SV) Đại học chính\nquy như sau:\nĐiều 1. Đối tượng và phạm vi áp dụng:\n1. Văn bản này quy định về nguyên tắc, tiêu chuẩn và phương thức thực hiện xét\nduyệt và cấp học bổng cho sinh viên hệ đại học chính quy khóa 2017, 2018, 2019, 2020\ncủa Trường Đại học Công nghệ Thông tin – Đại học Quốc gia TP.HCM (gọi tắt là Trường\nhoặc Trường ĐHCNTT) căn cứ quy định tại Nghị định số 84/2020/NĐ-CP ngày 17 tháng"
+      ],
+      "reference": "Sinh viên phải có kết quả học tập và rèn luyện từ loại khá trở lên, và không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét cấp học bổng.",
+      "expected_context": "Học sinh, sinh viên đang học trong các cơ sở giáo dục nghề nghiệp, cơ sở giáo dục đại học có kết quả học tập, rèn luyện từ loại khá trở lên, không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét cấp học bổng.",
+      "expected_doc_id": "nghi-dinh-84-2020-nd-cp",
+      "retrieved_sources": [
+        "nghi-dinh-84-2020-nd-cp-hoc-bong.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md",
+        "hcmulaw-quy-dinh-hbkkht.md",
+        "uit-548-qd-quy-dinh-hbkkht.md"
+      ],
+      "retrieval_method": "hybrid",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.4499999999775,
+      "context_recall": 1.0
+    }
+  ]
+}
