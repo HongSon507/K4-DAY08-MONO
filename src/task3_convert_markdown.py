@@ -1,129 +1,60 @@
 """
 Task 3 — Chuẩn hóa dữ liệu sang Markdown.
 
-- legal: PDF/DOCX trong landing/legal -> Markdown, metadata lấy từ sources.csv.
-- news : JSON trong landing/news      -> Markdown, metadata lấy từ chính JSON.
+Hướng dẫn:
+    1. Dùng MarkItDown để convert PDF/DOCX.
+    2. Đọc JSON và giữ metadata ở đầu file Markdown.
+    3. Giữ cấu trúc thư mục legal/ và news/.
+    4. Không tạo file rỗng hoặc file trùng khi chạy lại.
 
-Mỗi file output có YAML frontmatter để Task 4 dựng Document metadata mà không
-phải đoán title/url.
+Cài đặt:
+    Dependency MarkItDown đã được khai báo trong pyproject.toml.
+    
+-> Hoặc dùng công cụ nào bạn quen khác Markitdown
 """
 
-import csv
-import json
-import sys
 from pathlib import Path
-
-
-# Console Windows mac dinh cp1252 khong in duoc tieng Viet.
-if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
 LANDING_DIR = Path(__file__).parent.parent / "data" / "landing"
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "standardized"
 
-FRONTMATTER_FIELDS = (
-    "doc_id",
-    "title",
-    "source_url",
-    "retrieved_at",
-    "document_version",
-    "audience",
-    "institution",
-    "department",
-    "category",
-    "language",
-)
-
-
-def _frontmatter(values: dict) -> str:
-    """Dựng khối YAML frontmatter, bỏ qua field rỗng."""
-    lines = ["---"]
-    for key in FRONTMATTER_FIELDS:
-        value = str(values.get(key, "") or "").strip()
-        if value:
-            lines.append(f'{key}: "{value}"' if ":" in value else f"{key}: {value}")
-    lines.append("---")
-    return "\n".join(lines)
-
-
-def _load_legal_sources() -> dict[str, dict]:
-    """Đọc sources.csv, trả về mapping file_name -> metadata."""
-    path = LANDING_DIR / "legal" / "sources.csv"
-    if not path.exists():
-        return {}
-    with path.open(encoding="utf-8", newline="") as handle:
-        return {row["file_name"]: row for row in csv.DictReader(handle)}
-
 
 def convert_legal_docs() -> None:
-    """Convert PDF/DOCX vào standardized/legal."""
-    from markitdown import MarkItDown
-
-    legal_dir = LANDING_DIR / "legal"
-    output_dir = OUTPUT_DIR / "legal"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    sources = _load_legal_sources()
-    converter = MarkItDown()
-
-    for path in sorted(legal_dir.iterdir()):
-        if path.suffix.lower() not in {".pdf", ".doc", ".docx"}:
-            continue
-        try:
-            text = (converter.convert(str(path)).text_content or "").strip()
-        except Exception as error:
-            print(f"Failed: {path.name} — {error}")
-            continue
-
-        if len(text) < 200:
-            print(f"Skipped: {path.name} — chỉ trích được {len(text)} ký tự (PDF scan?)")
-            continue
-
-        meta = dict(sources.get(path.name, {}))
-        meta.setdefault("doc_id", path.stem)
-        meta.setdefault("title", path.stem)
-        meta["source_url"] = meta.get("source_url", "")
-
-        output = output_dir / f"{path.stem}.md"
-        output.write_text(
-            f"{_frontmatter(meta)}\n\n# {meta['title']}\n\n{text}\n",
-            encoding="utf-8",
-        )
-        print(f"Saved: legal/{output.name} ({len(text)} chars)")
+    # TODO:Convert PDF/DOCX vào standardized/legal. 
+    #
+    # from markitdown import MarkItDown
+    # legal_dir = LANDING_DIR / "legal"
+    # output_dir = OUTPUT_DIR / "legal"
+    # output_dir.mkdir(parents=True, exist_ok=True)
+    # converter = MarkItDown()
+    # for path in legal_dir.iterdir():
+    #     if path.suffix.lower() in {".pdf", ".doc", ".docx"}:
+    #         result = converter.convert(str(path))
+    #         (output_dir / f"{path.stem}.md").write_text(
+    #             result.text_content, encoding="utf-8"
+    #         )
+    raise NotImplementedError("Implement convert_legal_docs")
 
 
 def convert_news_articles() -> None:
-    """Convert JSON vào standardized/news."""
-    news_dir = LANDING_DIR / "news"
-    output_dir = OUTPUT_DIR / "news"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    for path in sorted(news_dir.glob("*.json")):
-        data = json.loads(path.read_text(encoding="utf-8"))
-        content = str(data.get("content_markdown", "")).strip()
-        if len(content) < 200:
-            print(f"Skipped: {path.name} — content quá ngắn ({len(content)} ký tự)")
-            continue
-
-        meta = {
-            "doc_id": data.get("doc_id", path.stem),
-            "title": data.get("title", path.stem),
-            "source_url": data.get("url", ""),
-            "retrieved_at": data.get("date_crawled", ""),
-            "audience": data.get("audience", ""),
-            "institution": data.get("institution", ""),
-            "department": data.get("department", ""),
-            "category": data.get("category", ""),
-            "language": data.get("language", "vi"),
-        }
-
-        output = output_dir / f"{meta['doc_id']}.md"
-        output.write_text(
-            f"{_frontmatter(meta)}\n\n# {meta['title']}\n\n{content}\n",
-            encoding="utf-8",
-        )
-        print(f"Saved: news/{output.name} ({len(content)} chars)")
+    # TODO: Convert JSON vào standardized/news.
+    #
+    # import json
+    # news_dir = LANDING_DIR / "news"
+    # output_dir = OUTPUT_DIR / "news"
+    # output_dir.mkdir(parents=True, exist_ok=True)
+    # for path in news_dir.glob("*.json"):
+    #     data = json.loads(path.read_text(encoding="utf-8"))
+    #     header = (
+    #         f"# {data['title']}\n\n"
+    #         f"**Source:** {data['url']}\n\n"
+    #         f"**Crawled:** {data['date_crawled']}\n\n---\n\n"
+    #     )
+    #     (output_dir / f"{path.stem}.md").write_text(
+    #         header + data["content_markdown"], encoding="utf-8"
+    #     )
+    raise NotImplementedError("Implement convert_news_articles")
 
 
 def convert_all() -> None:

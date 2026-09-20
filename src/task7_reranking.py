@@ -5,6 +5,8 @@ RRF gộp nhiều bảng xếp hạng mà không cộng trực tiếp cosine sco
 score. Công thức: RRF(d) = sum(1 / (k + rank)), rank bắt đầu từ 1.
 
 Lưu ý: RRF score chỉ phản ánh thứ hạng, không dùng để quyết định fallback.
+
+-> Dùng Jina hoặc self host hoặc bất cứ công cụ nào bạn quen
 """
 
 
@@ -13,38 +15,26 @@ def rerank_rrf(
     top_k: int = 5,
     k: int = 60,
 ) -> list[dict]:
-    """Fuse nhiều ranked lists và trả hybrid SearchResult.
-
-    Chỉ cộng theo thứ hạng nên không cần chuẩn hoá cosine score và BM25
-    score về cùng thang — đó chính là lý do dùng RRF thay vì cộng điểm.
-    """
-    scores: dict[str, float] = {}
-    items: dict[str, dict] = {}
-
-    for ranked_list in ranked_lists:
-        seen: set[str] = set()
-        for rank, item in enumerate(ranked_list, 1):
-            item_id = item["id"]
-            # Một ID xuất hiện hai lần trong cùng một list chỉ được tính
-            # thứ hạng tốt nhất, tránh tự cộng điểm cho chính nó.
-            if item_id in seen:
-                continue
-            seen.add(item_id)
-
-            scores[item_id] = scores.get(item_id, 0.0) + 1.0 / (k + rank)
-            items.setdefault(item_id, item)
-
-    ranked_ids = sorted(scores, key=lambda item_id: scores[item_id], reverse=True)
-
-    results = []
-    for item_id in ranked_ids[:top_k]:
-        result = dict(items[item_id])
-        result["metadata"] = dict(result.get("metadata", {}))
-        result["score"] = scores[item_id]
-        result["retrieval_method"] = "hybrid"
-        results.append(result)
-
-    return results
+    """Fuse nhiều ranked lists và trả hybrid SearchResult."""
+    # TODO: Implement RRF.
+    #
+    # scores = {}
+    # items = {}
+    # for ranked_list in ranked_lists:
+    #     for rank, item in enumerate(ranked_list, 1):
+    #         item_id = item["id"]
+    #         scores[item_id] = scores.get(item_id, 0.0) + 1 / (k + rank)
+    #         items[item_id] = item
+    #
+    # ranked_ids = sorted(scores, key=scores.get, reverse=True)
+    # results = []
+    # for item_id in ranked_ids[:top_k]:
+    #     result = items[item_id].copy()
+    #     result["score"] = scores[item_id]
+    #     result["retrieval_method"] = "hybrid"
+    #     results.append(result)
+    # return results
+    raise NotImplementedError("Implement rerank_rrf")
 
 
 if __name__ == "__main__":
