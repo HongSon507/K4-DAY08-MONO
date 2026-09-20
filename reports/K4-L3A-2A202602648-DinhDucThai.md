@@ -1,15 +1,23 @@
 # Individual contribution report
 
+Mỗi thành viên copy template này thành:
+
+```text
+reports/<student-id>-<short-name>.md
+```
+
+Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả lý thuyết chung. Báo cáo không phải một bài pipeline cá nhân; mục đích là ghi nhận ownership và bằng chứng đóng góp trong sản phẩm nhóm.
+
 ---
 
 ## Thông tin
 
 - Họ và tên: Đinh Đức Thái
 - Mã học viên: K4-L3-2A202602648
-- Nhóm: K4-L3A
-- Repository/branch: `HongSon507/K4-L3A-RAG-Pipeline` (main)
-
-## Phần việc đã thực hiện
+- Nhóm: Mono
+- Repository: `HongSon507/K4-L3A-RAG-Pipeline` 
+- Branch: ducthais
+## Phần việc đã thực hiện 
 
 | Module/deliverable | Việc tôi trực tiếp làm | File/commit/PR | Trạng thái |
 |---|---|---|---|
@@ -18,6 +26,7 @@
 | **Hybrid RRF & Fallback (Task 7, 8, 9)** | Hiện thực Reciprocal Rank Fusion ($k=60$), cơ chế fallback theo ngưỡng cosine dense score và xử lý lỗi dịch vụ ngoài | `src/task7_reranking.py`, `src/task8_pageindex_vectorless.py`, `src/task9_retrieval_pipeline.py` | Done |
 | **Generation & A/B Evaluation (Task 10, 11)** | Hiện thực sinh câu trả lời kèm citation `[Document N]`, reorder context giảm lost-in-the-middle, benchmark 20 golden cases và hoàn thiện báo cáo | `src/task10_generation.py`, `group_project/evaluation/RESULT.md` | Done |
 | **Streamlit Interface & Tests** | Vận hành ứng dụng Streamlit tra cứu học bổng, fix lỗi watcher `torchvision`, kiểm thử 100% acceptance & contract tests | `app.py`, `tests/test_acceptance.py`, `tests/test_contracts.py` | Done |
+Trên branch: ducthais
 
 ## Quyết định kỹ thuật quan trọng
 
